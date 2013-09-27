@@ -1,0 +1,20 @@
+What is trigger ?
+Pulse used to initiate a circuit action.
+
+What is triggering ?
+Initiation of an action in a circuit which then functions for a predetermined time. Example: The duration of one sweep in a cathode ray tube.
+
+What is trimmer ?
+Small value variable capacitor, resistor or inductor used to fine tune a larger value.
+
+What is trivalent element ?
+One having three valence electrons. Used as an impurity in semiconductor material to produce p-type material. Most commonly used trivalent elements are: Aluminium, Gallium and Boron.
+
+What is troubleshooting ?
+Systematic approach to locating the cause of a fault in an electronic circuit or system.
+
+What is tuned circuit ?
+Circuit that can have its component values adjusted so that it responds to one selected frequency and rejects all others.
+
+What is tunnel diode ?
+Heavily doped junction diode that has negative resistance in the forward direction of its operating range.

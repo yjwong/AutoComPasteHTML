@@ -1,0 +1,20 @@
+What is silicon transistor ?
+A bipolar junction transistor using silicon as the semiconducting material.
+
+What is silver ?
+(Ag) Precious metal that does not easily corrode and is more conductive than copper.
+
+What is silver mica capacitor ?
+Mica capacitor with silver deposited directly onto the mica sheets instead of using conductive metal foil.
+
+What is silver solder ?
+Solder composed of silver, copper and zinc. Has a melting point lower than pure silver, but higher than lead-tin solder.
+
+What is simplex ?
+Communication in only one direction at a time. Example: FAX.
+
+What is simulcast ?
+Broadcasting a program simultaneously in two different forms, for example a program broadcast in both AM and FM.
+
+What is sine wave ?
+Wave whose amplitude is the sine of a linear function of time. It is plotted on a graph that plots amplitude against time or radial degrees relative to the angular rotation of an alternator.

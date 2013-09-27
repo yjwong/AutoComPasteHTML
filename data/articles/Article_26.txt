@@ -1,0 +1,20 @@
+What is high tension ?
+Lethal voltage in the kilovolt range and above.
+
+What is hologram ?
+Three-dimensional picture created with a laser.
+
+What is holography ?
+The science dealing with three-dimensional optical recording.
+
+What is horizontally polarized wave ?
+Electromagnetic wave that has the electric field in the horizontal plane.
+
+What is hybrid circuit ?
+Circuit that combines two technologies (passive and active or discrete and integrated components) onto one microelectronic circuit. Passive components are usual made by thin film techniques, while active components are made with semiconductor techniques.
+
+What is hysteresis ?
+Amount that the magnetization of a material lags the magnetizing force due to molecular friction. In Schmitt Trigger circuits, the difference between the upper and lower trigger points.
+
+What is joule ?
+The unit of work and energy.

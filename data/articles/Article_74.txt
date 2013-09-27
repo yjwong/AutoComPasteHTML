@@ -1,0 +1,17 @@
+What is thin film detector ?
+(TFD) A temperature detector containing a thin layer of platinum and used for precise temperature readings.
+
+What is three phase supply ?
+AC supply that consists of three AC voltages 120?out of phase with each other.
+
+What is threshold ?
+Minimum point at which an effect is produced or detected.
+
+What is threshold voltage ?
+For an enhancement MOSFET, the minimum gate source voltage required for conduction of source drain current.
+
+What is thyristor ?
+A term used to classify all four layer semiconductor devices. SCRs and triacs are examples of thyristors.
+
+What is time constant ?
+(t) Time required for a capacitor in an RC circuit to charge to 63% of the remaining potential across the circuit. Also time required for current to reach 63% of maximum value in an RL circuit. Time constant of an RC circuit is the product of R and C. Time constant of an RL circuit is equal to inductance divided by resistance.

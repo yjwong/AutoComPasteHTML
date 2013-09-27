@@ -1,0 +1,17 @@
+What is pierce oscillator ?
+A variation of the colpitts oscillator. This oscillator uses a quartz crystal in place of the inductor foundin the colpitts oscillator feedback network. The crystal maintains ahighly stable output frequency.
+
+What is piezoelectric crystal ?
+Crystal material that will generate a voltagewhen mechanical pressure is applied and conversely will undergo mechanical stress when subjected to a voltage.
+
+What is piezoelectric effect ?
+The production of a voltage between oppositesides of a piezoelectric crystal as a result of pressure or twisting. Also the reverse effect which the application of a voltage to opposite sides causes a deformation to occur at the frequency of the applied voltage.  (Converts mechanical energy into electrical energy and electrical energy into mechanical energy).
+
+What is pinch-off region ?
+A region on the characteristic curve of a FET inwhich the gate bias causes the depletion region to extend completely across the channel.
+
+What is plastic film capacitor ?
+Capacitor in which alternate layers of aluminium foil are separated by thin films of plastic dialectric.
+
+What is plate ?
+Conductive electrode in either a capacitor or battery. In vacuum tube technology, it is the name given to the anode.

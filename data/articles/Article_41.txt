@@ -1,0 +1,20 @@
+What is out of phase ?
+When the maximum and minimum points of two or more wave shapes do not occur at the same time.
+
+What is output ?
+Terminal at which a component, circuit or piece of equipment delivers current, voltage or power.
+
+What is output impedance ?
+Impedance measured across the output terminals of a device without a load connected.
+
+What is output power ?
+Amount of power a component, circuit or system can deliver to a load.
+
+What is overload ?
+Condition that occurs when the load is greater than the system was designed to handle. Overload results in waveform distortion and/or overheating.
+
+What is overload protection ?
+Protective device such as a fuse or circuit breaker that automatically disconnects a load when current exceeds a predetermined value.
+
+What is paper capacitor ?
+Fixed capacitor using oiled or waxed paper asa dialectric.

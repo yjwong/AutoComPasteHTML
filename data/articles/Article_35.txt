@@ -1,0 +1,11 @@
+What is multimeter ?
+Electronic test equipment that can perform multiple tasks. Typically one capable of measuring voltage, current and resistance. More sophisticated modern digital multimeters also measure capacitance, inductance, current gain of transistors and/or anything else that can be measured electronically.
+
+What is multiplier resistor ?
+Resistor connected in series with a moving coil meter movement to extend the voltage ranges.
+
+What is multisegmant display ?
+Device made of several light emitting diodes arranged in a numeric or alphanumeric pattern. By lighting selected segments numeric or alphabet characters can be displayed.
+
+What is multivibrator ?
+A class of circuits designed to produce square waves or pulses. Astable multivibrators produce continuous pulses without an external stimulus or trigger. Monostable multivibrators produce a single pulse for some predetermined period of time only when triggered. Bistable multivibrators produce a DC output which is stable in either one of two states. Either high or low. An external stimulus or trigger is required for the bistable circuit to change states, either high to low or low to high.

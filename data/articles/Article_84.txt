@@ -1,0 +1,26 @@
+What is wattage rating ?
+Maximum power a device can safely handle continuously.
+
+What is watt-hour ?
+Unit of electrical work, equal to a power of one watt being absorbed for one hour.
+
+What is wattmeter ?
+Instrument used to measure electric power in watts.
+
+What is waveform ?
+Shape of a wave.
+
+What is waveguide ?
+Rectangular or circular pipe used to guide electromagnetic waves at micro frequencies.
+
+What is wavelength ?
+(l) Distance between two points of corresponding phase and is equal to waveform velocity divided by frequency.
+
+What is weber ?
+(Wb) Unit of magnetic flux. One weber is the amount of flux that when linked with a single turn of wire for an interval of one second will induce an electromotive force of one volt.
+
+What is wien-bridge oscillator ?
+Oscillator that uses an RC low-pass filter and an RC high-pass filter to set the frequency of oscillations.
+
+What is wet cell ?
+Secondary cell using a liquid as an electrolyte.

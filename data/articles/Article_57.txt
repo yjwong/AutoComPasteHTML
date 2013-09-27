@@ -1,0 +1,20 @@
+What is RL filter ?
+Selective circuit of resistors and inductors that offers little or no opposition to certain frequencies while blocking or attenuating other frequencies.
+
+What is RL integrator ?
+RL circuit with an output proportionate to the integral of the input signal.
+
+What is rms value ?
+Rms value of an AC sine wave is 0.707 times the peak value. This is the effective value of an AC sine wave. The rms value of a sine wave is the value of a DC voltage that would produce the same amount of heat in a heating element.
+
+What is roll-off rate ?
+Rate of change in gain when an amplifier is operated outside of its bandwidth.
+
+What is rotary switch ?
+Electromechanical device that has a rotating shaft connected to one terminal capable of making or breaking a connection to one or more other terminals.
+
+What is R-2R ladder ?
+Network or circuit composed of a sequence of L networks connected in tandem. Circuit used in digital to analog converters.
+
+What is saturation ?
+Condition in which a further increase in one variable produces no further increase in the resultant effect. In a bipolar junction transistor, the condition when the emitter to collector voltage is less than the emitter to base voltage. This condition puts forward bias on the base to collector junction.

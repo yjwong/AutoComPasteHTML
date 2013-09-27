@@ -1,0 +1,23 @@
+What is mercury cell ?
+Primary cell using a mercuric oxide cathode, a zinc anode and a potassium hydroxide electrolyte.
+
+What is metal film resistor ?
+A resistor in which a film of metal oxide or alloy is deposited on an insulating substrate.
+
+What is metal oxide field effect transistor ?
+(MOSFET)  A field effect transistor in which the insulating layer between the gate electrode and the channel is a metal oxide layer.
+
+What is metal oxide resistor ?
+A metal film resistor in which an oxide of metal (such as tin) is deposited as a film onto the substrate.
+
+What is meter ?
+Any electrical or electronic measuring device. In the metric system, it is the unit of length equal to 39.37 inches.
+
+What is meter FSD current ?
+Value of meter current needed to cause the needle to deflect to its maximum position (full scale deflection).
+
+What is meter resistance ?
+DC resistance of the meter's armature coil.
+
+What is mica capacitor ?
+Capacitor using mica as the dialectric.

@@ -1,0 +1,14 @@
+What is monostable multivibrator ?
+A nultivibrator with one stable output state. When triggered, the circuit output will switch to the unstable state for a predetermined period of time and then return to the stable state. A timer.
+
+What is molecule ?
+Smallest particle of a compound that still retains its characteristics.
+
+What is moving coil microphone ?
+Microphone that uses a moving coil within a fixed magnetic field. Dynamic microphone.
+
+What is moving coil pick-up ?
+Dynamic phonograph pick-up in which the stylus causes a coil to move within a fixed magnetic field.
+
+What is moving coil loudspeaker ?
+Loudspeaker that uses a moving "voice coil" placed within a fixed magnetic field. Audio frequency current in the voice coil causes movement which is mechanically transferred to the speaker cone. Also known as a dynamic loudspeaker.

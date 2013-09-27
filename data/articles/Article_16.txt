@@ -1,0 +1,23 @@
+What is DC power supply ?
+Any source of DC power for electrical equipment.
+
+What is dead short ?
+Short circuit having zero resistance.
+
+What is decade ?
+A frequency factor of ten.
+
+What is decibel ?
+(dB) a logarithmic representation of gain or loss.
+
+What is degenerative feedback ?
+Also called negative feedback. A portion of the output of an amplifier is inverted and connected back to the input. This controls the gain of the amplifier and reduces distortion and noise.
+
+What is delay time ?
+The time for collector current to reach 10% of its maximum value in a BJT switching circuit.
+
+What is depletion region ?
+There area surrounding a pn junction that is depleted of carriers.
+
+What is depletion mode ?
+In a FET, an operating mode where reverse gate-source voltage is used to deplete the channel of free carriers. This reduces the size of the channel and increases its resistance.

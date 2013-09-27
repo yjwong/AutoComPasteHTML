@@ -1,0 +1,26 @@
+What is telephone line ?
+Wires existing between subscribers and central stations in a telephone system.
+
+What is telephony ?
+Telecommunications system involving the transmission of speech information, allowing two or more persons to communicate verbally.
+
+What is television ?
+System that converts both audio and visual information into corresponding electrical signals which are then transmitted through wires or by radio waves to a receiver which reproduces the original information.
+
+What is telex ?
+Teletypewriter exchange service.
+
+What is temperature coefficient of frequency ?
+Rate at which frequency changes with temperature.
+
+What is terminal ?
+Point at which electrical connections are made.
+
+What is tesla ?
+(T) Unit of magnetic flux density. (1 tesla = 1 Wb/m2).
+
+What is thermal relay ?
+Relay activated by a heating element.
+
+What is thermal runaway ?
+Problem that can develop in an amplifier when an increase in temperature causes an increase in collector current. The increase in collector current causes a further increase in temperature and so on. Unless the circuit is designed to prevent this condition, the device can be driven into saturation.

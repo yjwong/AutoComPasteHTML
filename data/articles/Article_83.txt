@@ -1,0 +1,20 @@
+What is voltage rating ?
+Maximum voltage a component can withstand without breaking down.
+
+What is voltage regulator ?
+Device or circuit that maintains constant output voltage (within certain limits) in spite of changing line voltage and/or load current.
+
+What is voltage source ?
+Circuit or device that supplies voltage to a load.
+
+What is voltaic cell ?
+Primary cell having two unlike electrodes immersed in a solution that chemically interacts to produce a voltage.
+
+What is volt-ampere ?
+Unit of apparent power in an AC circuit containing capacitive or inductive reactance. Apparent power is the product of source voltage and current.
+
+What is voltmeter ?
+Instrument used to measure difference in potential between two points.
+
+What is volume ?
+Magnitude or power level of audio frequency. Measured in volume units (VU).

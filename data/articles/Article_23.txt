@@ -1,0 +1,26 @@
+What is emitter feedback ?
+Coupling from the emitter output to the base input of a bipolar junction transistor.
+
+What is emitter follower ?
+A common collector amplifier. Has a high current gain, high input impedance and low output impedance.
+
+What is energized ?
+Being electrically connected to a voltage source so the device is activated.
+
+What is energy ?
+Capacity to do work.
+
+What is engineering notation ?
+A floating point system in which numbers are expressed as products consisting of a number greater than one multiplied by an appropriate power of ten that is some multiple of three.
+
+What is enhancement-mode MOSFET ?
+A field effect transistor in which there are no charge carriers in the channel when the gate source voltage is zero.
+
+What is equivalent resistance ?
+Total resistance of all the individual resistances in a circuit.
+
+What is fall time ?
+Time it takes the falling edge of a pulse to go from 90% of peak voltage to 10% of peak voltage.
+
+What is gain bandwidth product ?
+A device parameter that indicates the maximum possible product of gain and bandwidth. The gain bandwidth product of a device is equal to the unity gain frequency (funity) of the device.

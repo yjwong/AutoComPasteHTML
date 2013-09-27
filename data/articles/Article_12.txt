@@ -1,0 +1,23 @@
+What is color code ?
+Set of colors used to indicate value of a component.
+
+What is colpitts oscillator ?
+An oscillator with a pair of tapped capacitors in the feedback network.
+
+What is common base amplifier ?
+A BJT circuit in which the base connection is common to both input and output.
+
+What is common drain amplifier ?
+A FET circuit in which the drain connection is common to both input and output.
+
+What is common-mode signals ?
+Signals that appear simultaneously at two inputs of an operational amplifier. Common mode signals are always equal in amplitude and phase.
+
+What is comparitor ?
+An op-amp circuit that compares two inputs and provides a DC output indicating the polarity relationship between the inputs.
+
+What is complementry transistors ?
+Two transistors, one NPN and one PNP having near identical characteristics. N-channel and P-channel FETs can also be complementary.
+
+What is complex numbers ?
+Numbers composed of a real number part and an imaginary number part.

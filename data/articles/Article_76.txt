@@ -1,0 +1,17 @@
+What is transistor ?
+Term derived from "transfer resistor". Semiconductor device that can be used as an amplifier or as an electronic switch.
+
+What is transmission ?
+Sending of information.
+
+What is transmission line ?
+Conducting line used to transmit signal energy between two points.
+
+What is transmitter ?
+Equipment used to achieve transmission.
+
+What is triac ?
+Bidirectional gate controlled thyristor similar to an SCR, but capable of conducting in both directions. Provides full wave control of AC power.
+
+What is triangular wave ?
+A repeating wave that has equal positive going and negative going ramps. The ramps have linear rates of change with time.

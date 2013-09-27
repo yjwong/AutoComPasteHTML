@@ -1,0 +1,23 @@
+What is negative ion ?
+An atom having a greater number of electrons in orbit than there are protons in the nucleus.
+
+What is negative resistance ?
+A resistance such that when the current through it increases the voltage drop across the resistance decreases.
+
+What is negative temperature coefficient ?
+A term used to describe a component whose resistance or capacitance decreases when temperature increases.
+
+What is neon bulb ?
+Glass envelope filled with neon gas which when ionized by an applied voltage will glow red.
+
+What is network ?
+Combination of interconnected components, circuits or systems.
+
+What is neutral ?
+A terminal, point or object with balanced charges. Neither positive or negative.
+
+What is neutral atom ?
+An atom in which the number of negative charges (electrons in orbit) is equal to the number of positive charges (protons in the nucleus).
+
+What is neutral wire ?
+The conductor of a polyphase circuit or a single-phase three wire circuit that is intended to have a ground potential. The potential difference between the neutral and each of the other conductors are approximately equal in magnitude and equally spaced in phase.

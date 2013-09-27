@@ -1,0 +1,20 @@
+What is dynamic ?
+Relating to conditions that are changing or in motion.
+
+What is E-core ?
+Laminated form in the shape of the letter "E", onto which inductors and transformers are wound.
+
+What is eddy currents ?
+Currents induced into a conducting core due to the changing magnetic field. Eddy currents produce heat which is a loss of power and lowers the efficiency of an inductor.
+
+What is efficiency ?
+The amount of power delivered to the load of an amplifier as a percentage of the power required from the power supply.
+
+What is electric charge ?
+Electric energy stored on the surface of a material. Also known as a static charge.
+
+What is electric field ?
+A field or force that exists in the space  between two different potentials or voltages. Also known as an electrostatic field.
+
+What is electricity ?
+Science states that certain particles possess a force field or charge. The charge possessed by an electron is negative while the charge possessed by a proton is positive. Electricity can be divided into two groups, static and dynamic. Static electricity deals with charges at rest and dynamic electricity deals with charges in motion.

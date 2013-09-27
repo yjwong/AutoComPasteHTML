@@ -1,0 +1,17 @@
+What is peak inverse voltage ?
+(PIV) The maximum rated value of a AC voltageacting in the direction opposite to that in which a device is designedto pass current.
+
+What is peak to peak ?
+Difference between the maximum positive andmaximum negative values of an AC waveform.
+
+What is pentavalent element ?
+Element whose atoms have five valence electrons. Used in doping intrinsicsilicon or germanium to produce n-type semiconductor material. Mostcommonly used pentavalent materials are  arsenic and phosphorus.
+
+What is percent of regulation ?
+The change in output voltage that occursbetween no-load and full-load in a DC voltage source. Dividing thischange by the full-load value and multiplying the result by 100givespercent regulation.
+
+What is percent of ripple ?
+The ratio of the effective rms value of ripplevoltage to the average value of the total voltage. Expressed as apercentage.
+
+What is period ?
+Time to complete one fullcycle of a periodic or repeating waveform.

@@ -1,0 +1,20 @@
+What is series circuit ?
+Circuit in which the components are connected end to end so that current has only one path to follow through the circuit.
+
+What is series parallel network ?
+Network that contains components connected in both series and parallel.
+
+What is series resonance ?
+Condition that occurs in a series LC circuit at the frequency where inductive reactance equals capacitive reactance. Impedance is minimum, current is maximum limited only by resistance in the circuit.
+
+What is seven segment display ?
+Device made of several light emitting diodes arranged in a numeric or alphanumeric pattern. By lighting selected segments numeric or alphabet characters can be displayed.
+
+What is shells or bands ?
+Orbital path containing a group of electrons having a common energy level.
+
+What is shield ?
+Metal grounded cover used to protect a wire, component or piece of equipment from stray magnetic and/or electric fields.
+
+What is short circuit ?
+Also called a short. Low resistance connection between two points in a circuit typically causing excessive current.

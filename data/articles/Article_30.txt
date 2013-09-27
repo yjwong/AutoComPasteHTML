@@ -1,0 +1,26 @@
+What is load regulation ?
+The ability of a voltage regulator to maintain a constant output voltage under varying load currents.
+
+What is logic ?
+Science of dealing with the principle and applications of gates, relays and switches.
+
+What is low pass filter ?
+A tuned circuit designed to pass all frequencies below a designated cut-off frequency.
+
+What is magnet ?
+Body that can be used to attract or repel magnetic materials.
+
+What is magnetic circuit breaker ?
+Circuit breaker that is tripped or activated by use of an electromagnet.
+
+What is magnetic coil ?
+Spiral of a conductor which is called an electromagnet.
+
+What is magnetic core ?
+Material that exists in the center of the mahnetic coil to either physically support the windings (non-magnetic material) or to concentrate the magnetic flux (magnetic material).
+
+What is magnetic field ?
+Magnetic lines of force travelling from the north pole to the south pole of a magnet.
+
+What is magnetic poles ?
+Points of a magnet from which magnetic lines of force leave (north pole) and arrive (south pole).

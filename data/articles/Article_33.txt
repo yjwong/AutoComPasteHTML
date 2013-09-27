@@ -1,0 +1,23 @@
+What is microphone ?
+Electroacoustic transducer that converts sound energy into electric energy.
+
+What is microwave ?
+Band of very short wavelength radio waves within the UHF, SHF and EHF bands.
+
+What is midband gain ?
+Gain of an amplifier operating within its bandwidth.
+
+What is mid-point bias ?
+An amplifier biased at the center of its DC load line.
+
+What is Miller's theorem ?
+A theorem that allows you to represent a feedback capacitor as equivalent input and output shunt capacitors.
+
+What is minority carriers ?
+The conduction band holes in n-type material and valence band electrons in p-type material. Most minority carriers are produced by temperature rather than by doping with impurities.
+
+What is mismatch ?
+Term used to describe a difference between the output impedance of a source and the input impedance of a load. A mismatch prevents the maximum transfer of power from source to load.
+
+What is modulation ?
+Process by which an information signal (audio for example) is used to modify some characteristic of a higher frequency wave known as a carrier (radio for example).

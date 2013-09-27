@@ -1,0 +1,23 @@
+What is diode ?
+A two terminal device that conducts in only one direction.
+
+What is direct coupling ?
+Where the output of an amplifier is connected directly to the input of another amplifier or to a load. Also known as DC coupling because DC signals are not blocked.
+
+What is direct current ?
+Current that flows in only one direction.
+
+What is discharge ?
+Release of energy stored in either a battery or a capacitor.
+
+What is discrete component ?
+Package containing only a single component as opposed to an integrated circuit containing many components in a single package.
+
+What is dissipation ?
+Release of electrical energy in the form of heat.
+
+What is distortion ?
+An undesired change in a waveform or signal.
+
+What is distributed capacitance ?
+Any capacitance other than that within a capacitor. For example, the capacitance between adjacent turns of wire in a coil.

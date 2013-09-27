@@ -1,0 +1,17 @@
+What is junction ?
+Contact or connection between two or more wires or cables. The area where the p-type material and n-type material meet in a semiconductor.
+
+What is junction diode ?
+diode. A semiconductor diode in which the rectifying characteristics occur at a junction between the n-type and p-type semiconductor materials.
+
+What is kilowatt-hour meter ?
+A meter used by electric utility companies to measure the amount of electric power used by a customer.
+
+What is kinetic energy ?
+Energy associated with motion.
+
+What is Kirchhoff"s voltage law ?
+The algebraic sum of the voltage drops in a closed path circuit is equal to the algebraic sum of the source voltages applied.
+
+What is knee voltage ?
+The voltage at which a curve joins two relatively straight portions of a characteristic curve. For a PN junction diode, the point in the forward operating region of the characteristic curve where conduction starts to increase rapidly. For a zener diode, the term is often used in reference to the zener voltage rating.

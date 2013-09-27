@@ -1,0 +1,26 @@
+What is wetting ?
+Term used in soldering to describe the condition that occurs when the metals being soldered are hot enough to melt the solder so it flows over the surface.
+
+What is wheatstone bridge ?
+Four arm bridge circuit used to measure resistance, inductance or capacitance.
+
+What is wideband amplifier ?
+Also called "broadband amplifier". Amplifier with a flat response over a wide range of frequencies.
+
+What is winding ?
+One or more turns of a conductor wound in the form of a coil.
+
+What is wire gauge ?
+American wire gauge (AWG) is a system of numerical designations  of wire diameters.
+
+What is wireless ?
+Term describing radio communication that requires no wired between two communicating points.
+
+What is wirewound resistor ?
+Resistor in which the resistive element is a length of high resistance wire or ribbon usually nichrome wound onto an insulating form.
+
+What is wire wrapping ?
+Method of making a connection by wrapping wire around a rectangular pin.
+
+What is woofer ?
+Large loudspeaker designed primarily to reproduce low frequency audio signals.

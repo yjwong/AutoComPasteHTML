@@ -1,0 +1,26 @@
+What is phosphor ?
+Luminescent materialapplied to the inner face of a cathode ray tube that when bombarded with electrons will emit light of various colors.
+
+What is photoconductive cell ?
+Material whose resistance decreases or conductanceincreases when exposed to light.
+
+What is photoconduction ?
+A process bywhich the conductance of a material is change by incident electromagnetic radiation in the visible light spectrum.
+
+What is photodetector ?
+Component used todetect or sense light.
+
+What is photodiode ?
+A semiconductor diode that changes its electrical characteristics inresponse to illumination.
+
+What is photometer ?
+Meter used to measure light intensity.
+
+What is photon ?
+Discrete portion ofelectromagnetic energy. A small packet of light.
+
+What is photo resistor ?
+Also known as a photoconductive cell or light dependent resistor(LDR). A device whose resistance decreases with exposure to light.
+
+What is photovoltaic cell ?
+Component commonly called a solar cell used to convert light energy into electrical energy.

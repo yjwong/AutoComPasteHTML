@@ -1,0 +1,14 @@
+What is valence shell ?
+The outermost electron shell for a given atom. The number of electrons in this shell determines the conductivity of the atom.
+
+What is varactor diode ?
+PN junction diode with a high junction capacitance when reverse biased. Most often used as a voltage controlled capacitor. The varactor is also called: varicap, tuning diode and epicap.
+
+What is variable capacitor ?
+Capacitor whose capacitance can be change by varying the effective area of the plates or the distance between the plates.
+
+What is variable resistor ?
+Resistor whose resistance can be changed by turning a shaft. See also "potentiometer and rheostat".
+
+What is vector ?
+Quantity having both magnitude and direction. Normally represented by a line. Length of the line indicates magnitude and orientation indicates direction.

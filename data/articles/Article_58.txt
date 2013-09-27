@@ -1,0 +1,17 @@
+What is sawtooth wave ?
+Repeating waveform that rises from zero to maximum value linearly drops back to zero and repeats. A ramp waveform.
+
+What is scale ?
+Set of markings used for measurement.
+
+What is schematic diagram ?
+Illustration of an electrical or electronic circuit with the components represented by their symbols.
+
+What is Schmitt trigger ?
+Circuit to convert a given waveform to a square wave output.
+
+What is Schottky diode ?
+High speed diode that has very little junction capacitance. Also known as a "hot-carrier diode" or a "surface-barrier diode".
+
+What is scientific notation ?
+Numbers entered as a number from one to ten multiplied by a power of ten. Example: 8765 = 8.765 x 10^3.

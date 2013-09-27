@@ -1,0 +1,26 @@
+What is permanence ?
+Magnetic equivalent of magnetic inductance and consequently equal to the reciprocal of reluctance, just as conductance is equal to the reciprocal of resistance.
+
+What is permanent magnet ?
+Magnet normally made of hardened steel that retains its magnetism indefinitely.
+
+What is permeability ?
+Measure of how much better a material is as a path for magnetic lines of forcewith respect to air which has a permeability of one. Symbolized by the Greek lower case letter mu (m).
+
+What is phase ?
+Angular relationship between two waves.
+
+What is phase angle ?
+Phase difference between two or more waves,normally expressed in degrees.
+
+What is phase shift ?
+Change in phase of a wave form between two points, expressed as degrees of lead or lag.
+
+What is phase shift oscillator ?
+An oscillator that uses three RC networks inits feedback path to produce the 180 degrees phase shift required for oscillation.
+
+What is phase splitter ?
+Circuit that takes a single input signal and produces two output signals that are 180 degrees apart in phase.
+
+What is phonograph ?
+Piece of equipment used to reproduce sound stored on a disk called a phonograph record.

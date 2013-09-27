@@ -1,0 +1,20 @@
+What is choke ?
+Inductor used to oppose the flow of alternating current.
+
+What is circuit ?
+Interconnection of components to provide an electrical path between two or more components.
+
+What is circuit breaker ?
+A protective device used to open a circuit when current exceeds a maximum value. In effect a reusable fuse.
+
+What is clamper ?
+A diode circuit used to change the DC level of a waveform without distorting the waveform.
+
+What is clapp oscillator ?
+A variation of the Colpitts oscillator. An added capacitor is used to eliminate the effects of stray capacitance on the operation of the basic Colpitts oscillator.
+
+What is class A amplifier ?
+A linear amplifier biased so the active device conducts through 360 degrees of the input waveform.
+
+What is class B amplifier ?
+An amplifier with two active devices. The active components are biased so that each conducts for approximately 180 degrees of the input waveform cycle.

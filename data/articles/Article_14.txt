@@ -1,0 +1,20 @@
+What is coupling ?
+To electronically connect two circuits so that signal will pass from one to the other.
+
+What is covalent bond ?
+The way some atoms complete their valence shells by sharing valence electrons with neighbouring atoms.
+
+What is crossover distortion ?
+Distortion caused by both devices in a class B amplifier being cut-off at the same time.
+
+What is crowbar ?
+Circuit used to protect the output of a source from a short circuited load. Load current is limited to a value the source can deliver without damage.
+
+What is crystal ?
+Natural or synthetic piezoelectric or semiconductor material with atoms arranged with some degree of geometric regularity.
+
+What is crystal-controlled oscillator ?
+Oscillator that uses a quartz crystal in its feedback path to maintain a stable output frequency.
+
+What is current ?
+Measured in amperes, it is the flow of electrons through a conductor. Also know as electron flow.

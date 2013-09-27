@@ -1,0 +1,23 @@
+What is regulator ?
+Device or circuit that maintains a desired output under changing conditions.
+
+What is relay ?
+Electromechanical device that opens or closes contacts when a current is passed through a coil.
+
+What is relative ?
+Not independent. Compared with or with respect to some other measured quantity.
+
+What is relaxation oscillator ?
+Free running circuit that outputs pulses with a period dependent or one or more RC time constants.
+
+What is reluctance ?
+Resistance to the flow of magnetic lines of force.
+
+What is remanence ?
+Amount a material remains magnetized after the magnetizing force has been removed.
+
+What is residual magnetism ?
+Magnetism remaining in the core of an electromagnet after the coil current is removed.
+
+What is resistance ?
+Symbolized "R" and measured in ohms. Opposition to current flow and dissipation of energy in the form of heat.

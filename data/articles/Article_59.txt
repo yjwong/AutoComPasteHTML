@@ -1,0 +1,17 @@
+What is secondary ?
+Output winding of a transformer. Winding that is connected to a load.
+
+What is secondary cell ?
+Electrolytic cell used to store electricity. Once discharged may be restored by recharging by putting current through the cell in the direction opposite to that of discharge current.
+
+What is selectivity ?
+Charistic of a circuit to discriminate between wanted and unwanted signals.
+
+What is self biasing ?
+Gate bias for a field effect transistor in which source current through a resistor produces the voltage for gate to source bias.
+
+What is self inductance ?
+Property that causes a counter electro motive force to be produced in a conductor when the magnetic field expands or collapses with a change of current.
+
+What is semiconductor ?
+An element which is neither a good conductor or a good insulator, but rather lies somewhere between the two. Characterized by a valence shell containing four electrons. Silicon, germanium and carbon are the semiconductors most frequently used in electronics.

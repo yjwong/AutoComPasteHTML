@@ -1,0 +1,20 @@
+What is npn transistor ?
+A bipolar junction transistor in which a p-type base element is sandwiched between an n-type emitter and an n-type collector.
+
+What is nucleus ?
+Core of an atom. The nucleus contains both positive (protons) and neutral (neutrons) subatomic particles.O
+
+What is octave ?
+Interval between two sounds whose fundamental frequencies differ by a ratio of 2 to 1.  440 Hz. is one octave above 220 Hz.
+
+What is offset null ?
+An op amp control pin used to eliminate the effects of internal component voltages on the output of the device.
+
+What is ohmmeter ?
+Device used to measure electrical resistance.
+
+What is Ohm's law ?
+Relationship between voltage, current and resistance. Ohm's law states that current in a resistance varies in direct proportion to voltage applied and inversely proportional to resistance.
+
+What is Ohms per volt ?
+Refers to a value of ohms per volt of full scale defection for a moving coil meter movement. The number of ohms per volt is the reciprocal of the amount of current required to produce full scale deflection of the needle. A meter requiring 50 microamps for full scale deflection has an internal resistance of 20 kW per volt. The higher the ohms per volt rating, the more sensitive the meter.

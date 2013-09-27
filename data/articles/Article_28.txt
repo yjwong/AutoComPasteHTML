@@ -1,0 +1,20 @@
+What is laminated core ?
+Core made up of sheets of magnetic material insulated from one another by an oxide or varnish.
+
+What is laser ?
+Device that produces a very narrow intense beam of light. The name is an acronym for light amplification by stimulated emission of radiation.
+
+What is lead-acid cell ?
+Cell made up of lead plates immersed in a sulphuric acid electrolyte. An automobile battery usually consists of six lead-acid cells.
+
+What is leakage ?
+Small undesirable flow of current through an insulator or dialectric.
+
+What is left-hand-rule ?
+If fingers of the left hand are placed around a wire so that the thumb points in the direction of electron flow, the fingers will be pointing in the direction of the magnetic field being produced by the conductor.
+
+What is Lenz's law ?
+The current induced in a circuit due to a change in the magnetic field is so directed as to oppose the flux, or to exert a mechanical force to oppose the motion.
+
+What is level detector ?
+An op-amp circuit that compares two inputs and provides a DC output indicating the polarity relationship between the inputs. A comparator.

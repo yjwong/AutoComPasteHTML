@@ -1,0 +1,26 @@
+What is neutron ?
+Subatomic particle in the nucleus of an atom and having no electrical charge.
+
+What is nickel-cadmium cell ?
+A secondary cell that uses a nickel oxide positive electrode and a cadmium negative electrode.
+
+What is noise ?
+Unwanted electromagnetic radiation within an electrical or mechanical system.
+
+What is non-inverting input ?
+The terminal on an operational amplifier that is identified by a plus sign.
+
+What is non-linear scale ?
+A scale in which the divisions are not equally spaced.
+
+What is normally open ?
+Designation which states that the contacts of a switch or relay are normally open or not connected. When activated the contacts close or become connected.
+
+What is north pole ?
+Pole of a magnet out of which magnetic lines of force are assumed to originate.
+
+What is Norton's theorem ?
+Any network of voltage sources and resistors can be replace by a single current source in parallel with a single resistor.
+
+What is notch filter ?
+A filter which blocks a narrow band of frequencies and passes all frequencies above and below the band.

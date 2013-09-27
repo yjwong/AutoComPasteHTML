@@ -1,0 +1,26 @@
+What is spectrum ?
+Arrangement or display of light or other forms of electromagnetic radiation separated according to wavelength, energy or some other property.
+
+What is spectrum analyzer ?
+Instrument used to display the frequency domain of a waveform plotting amplitude against frequency.
+
+What is speed-up capacitor ?
+Capacitor added to the base circuit of a BJT switching circuit to improve the switching time of the device.
+
+What is square wave ?
+Wave that alternates between two fixed values for an equal amount of time.
+
+What is static ?
+Crackling noise heard on AM radio receivers. Caused by electric storms or electric devices.
+
+What is static electricity ?
+Stationary electric charges.
+
+What is static reverse current ?
+Reverse current through a zener diode when the reverse voltage across the diode is less than the zener voltage rating of the device.
+
+What is stator ?
+Stationary part of some rotary device such as a variable capacitor.
+
+What is step-down transformer ?
+Transformer in which the output AC voltage is less than the input AC voltage.

@@ -1,0 +1,26 @@
+What is current amplifier ?
+Amplifier to increase signal current.
+
+What is current mirror ?
+Term used to describe the fact that DC current through the base circuit of a class B amplifier is approximately equal to the DC collector current.
+
+What is cutoff ?
+Condition when an active device is biased such that output current is near zero or beyond zero.
+
+What is cutoff frequency ?
+Frequency at which the power gain of an amplifier falls below 50% of maximum.
+
+What is cycle ?
+When a repeating wave rises from zero to a positive maximum then back to zero and on to a negative maximum and back to zero it is said to have completed one cycle.
+
+What is damping ?
+Reduction in magnitude of oscillation due to energy being dissipated as heat.
+
+What is darlington pair ?
+An amplifier consisting of two bipolar junction transistors with their collectors connected together and the emitter of one connected to the base of the other. Circuit has an extremely high current gain and input impedance.
+
+What is DC load line ?
+A graph representing all possible combinations of voltage and current for a given load resistor in an amplifier.
+
+What is DC offset ?
+The change in input voltage required to produce a zero output voltage when no signal is applied to an amplifier.
