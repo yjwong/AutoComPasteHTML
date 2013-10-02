@@ -5,6 +5,33 @@ body, html{
     font-family: "Arial";
     font-size: 12px;
     color: #ffffff;
+    position: relative;
+}
+
+#Root {
+   width: 100%;
+   position: relative;
+}
+
+#InstructionArea {
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#InstructionButtonArea {
+    width: 100%;
+    height: 30px;
+    background-color: #0078a3;
+    color: white;
+}
+
+a#InstructionButton {
+    width: 50px;
+    color: white;
 }
 
 .pad20 {
@@ -48,7 +75,8 @@ body, html{
     position: static;
     height: 20px;
     background-color: blue;
-    clear:both
+    clear:both;
+
 }
 .windowClassHandlerIcons{
     position: static;

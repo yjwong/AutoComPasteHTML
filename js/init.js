@@ -12,7 +12,7 @@ var vD = null;
 var vUI = null;
 
 var run = function(){
-    var root = $("body");
+    var root = $("#Root");
     vD = new dataModel(root);
     vUI = new viewerUI(root);
 }
