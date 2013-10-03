@@ -18,9 +18,7 @@ You should have your own local server to run this. You can get and install a loc
 - and Linux: http://www.apachefriends.org/en/xampp-linux.html
 - for Mac: http://www.mamp.info/
 
-and then put this at htdocs. 
-
-Preferably put it in a folder. 
+and then put this at htdocs. Preferably put it in a folder. 
 
 For this purpose, the name of the folder will be: acptest
 
