@@ -16,7 +16,7 @@
     <file path="/index.min.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380777179462" ignored="false" />
     <file path="/default.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380778439700" ignored="false" />
     <file path="/defaultlib.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380778423276" ignored="false" />
-    <file path="/README.md" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380780050200" ignored="false" />
+    <file path="/README.md" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380781420951" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.2618262">
+            <state line="35" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.6640625">
               <folding />
             </state>
           </provider>
@@ -219,6 +219,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoComPasteHTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoComPasteHTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="extrajs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -251,6 +269,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\AutoComPasteHTML\js\module" />
       <recent name="C:\xampp\htdocs\AutoComPasteHTML\js" />
       <recent name="C:\xampp\htdocs\AutoComPasteHTML\extrajs" />
       <recent name="C:\xampp\htdocs\AutoComPasteHTML\data\articles" />
@@ -367,14 +386,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/js/module/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="20" selection-start="0" selection-end="3460" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/data.js">
+    <entry file="file://$PROJECT_DIR$/js/module/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="26" selection-start="0" selection-end="8307" vertical-scroll-proportion="0.0">
           <folding />
@@ -388,21 +407,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/window_element.js">
+    <entry file="file://$PROJECT_DIR$/js/module/window_element.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="184" column="26" selection-start="0" selection-end="26337" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/init.js">
+    <entry file="file://$PROJECT_DIR$/js/module/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ui.js">
+    <entry file="file://$PROJECT_DIR$/js/module/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="41" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
           <folding />
@@ -425,19 +444,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="716" selection-end="716" vertical-scroll-proportion="-14.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1421" column="41" selection-start="42594" selection-end="42594" vertical-scroll-proportion="-25.16">
           <folding>
             <element signature="e#5428#6410#0" expanded="false" />
             <element signature="e#6424#6723#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extrajs/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -456,18 +477,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extrajs/default.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#159#0" expanded="false" />
-          </folding>
+        <state line="22" column="14" selection-start="716" selection-end="716" vertical-scroll-proportion="-14.384615">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.2618262">
+        <state line="35" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.6640625">
           <folding />
         </state>
       </provider>
