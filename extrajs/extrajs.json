@@ -2,7 +2,13 @@
     "data": [
         {
             "type": "js",
+            "link": "extrajs/defaultlib.js"
+        },
+        {
+            "type": "js",
             "link": "extrajs/default.js"
         }
+
+
     ]
 }

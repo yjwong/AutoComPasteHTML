@@ -13,20 +13,34 @@ body, html{
    position: relative;
 }
 
-#InstructionArea {
+#Header {
+    height: 200px;
+    clear: both;
+    width: 100%;
+}
+
+#InstructionAreaBox {
     margin: 0px;
     padding: 0px;
     height: 200px;
-    width: 100%;
+    width: 90%;
     background-color: #FFFFFF;
     color: #000000;
+    float: left;
+}
+
+#InstructionArea {
+
+    padding: 10px;
+
 }
 
 #InstructionButtonArea {
-    width: 100%;
-    height: 30px;
-    background-color: #0078a3;
+    width: 9%;
+    height: 200px;
+    background-color: #121a2e;
     color: white;
+    float: right;
 }
 
 a#InstructionButton {
@@ -110,3 +124,46 @@ a#InstructionButton {
 .ACPDropDown {
     position: absolute;
 }
+
+/* Buttons */
+.button {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 10px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.button.black {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: bold;
+    margin: 7px;
+    -webkit-border-radius: 5px;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+    from(#7d828c),
+    color-stop(0.5, #303749),
+    color-stop(0.5, #121a2e),
+    to(#121a2e));
+    border: solid 1px rgba(79, 79, 79, 0.75);
+}
+.button.black:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom,
+    from(#4286f5),
+    color-stop(0.5, #4286f5),
+    color-stop(0.5, #194fdb),
+    to(#194fdb));
+}
+.button.black:active {
+    color: #000000;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+    from(#d0e0f5),
+    color-stop(0.5, #cad7f5),
+    color-stop(0.5, #bbdbd7),
+    to(#acdbd5));
+}
+
+
