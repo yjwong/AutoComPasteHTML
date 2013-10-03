@@ -65,7 +65,11 @@ If you want to access a different javascript list, let's say new_javascript_list
 Note: Please put the new_javascript_list.json at the extrajs folder
 
 ###Recording Logs
-To record your logs, use the function log(data), where data is any data you want to record.
+To record your logs, use the function:
+
+log(data)
+
+where data is any data you want to record.
 - a javascript data object (make sure you don't save the whole jquery element on this, as it will conflict with JSON stringify later on)
 - a string
 - an integer, float, number...
