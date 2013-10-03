@@ -18,7 +18,9 @@ You should have your own local server to run this. You can get and install a loc
 - and Linux: http://www.apachefriends.org/en/xampp-linux.html
 - for Mac: http://www.mamp.info/
 
-and then put this at htdocs. Preferably put it in a folder. For this purpose, the name of the folder will be: acptest
+and then put this at htdocs. 
+Preferably put it in a folder. 
+For this purpose, the name of the folder will be: acptest
 
 #Accessing:
 To access the ACP Testing Environment, just type: localhost/acptest (for Windows and Linux) or localhost:8888/acptest (for Mac... because MAMP usually puts it in a different port -> 8888, check MAMP settings on what port to access the MAMP server)
