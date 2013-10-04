@@ -18,13 +18,13 @@ You should have your own local server to run this. You can get and install a loc
 - and Linux: http://www.apachefriends.org/en/xampp-linux.html
 - for Mac: http://www.mamp.info/
 
-and then put this at htdocs. Preferably put it in a folder.    
-For this purpose, the name of the folder will be: acptest
+and then put this at ```htdocs```. Preferably put it in a folder.    
+For this purpose, the name of the folder will be: ```acptest```
 
 #Accessing:
 To access the ACP Testing Environment, just type:   
-For Windows and Linux: localhost/acptest      
-For Mac: localhost:8888/acptest   
+For Windows and Linux: ```localhost/acptest```      
+For Mac: ```localhost:8888/acptest```   
 
 Note: because MAMP usually puts it in a different port -> 8888, check MAMP settings on what port to access the MAMP server
 
@@ -64,8 +64,7 @@ You will get:
 You can use it as is... or modify the JSON File Descriptors to personalize the system to suit your experimental procedure and logging...
 
 ###How to Add articles for testing in the *Data JSON File Descriptor*
-If you want to add articles,    
-let's say **new_article.txt**,
+If you want to add articles, let's say **new_article.txt**,
 and you have put it inside the **article folder** (which is inside the **data folder**), you will need to edit the **data.json** file, which is inside the **data folder**, and add the article as a *javascript object notation data* using this format:
 ```javascript
 {
@@ -75,16 +74,14 @@ and you have put it inside the **article folder** (which is inside the **data fo
 ```
 Note: This is given that the article file **new_article.txt** is inside the **article folder** (which is inside the **data folder**)
 
-If you want to create your own **Data JSON File Descriptor**,
-let's say **new_data.json**,
+If you want to create your own **Data JSON File Descriptor**, let's say **new_data.json**,
 and you want to put your article in it, you need to edit **new_data.json** (which should also be inside the **data folder**), you have to start the file this way:
 ```javascript
 {
    data: [ LIST OF ARTICLE ] 
 }
 ```
-This means, if you have two articles that you want to be loaded,
-let's say **new_article.txt** and **new_article_2.txt**, both insde the **article folder** (which is insde the **data folder**),    
+This means, if you have two articles that you want to be loaded, let's say **new_article.txt** and **new_article_2.txt**, both insde the **article folder** (which is insde the **data folder**),    
 then **new_data.json** would look like this:
 ```javascript
 {
@@ -102,8 +99,7 @@ then **new_data.json** would look like this:
 ```
 
 ###Loading A Different *Data JSON File Descriptor*
-If you want to access a different **Data JSON File Descriptor**,    
-let's say **new_data.json** (from the example above),    
+If you want to access a different **Data JSON File Descriptor**, let's say **new_data.json** (from the example above),    
 you can type this in your url:
 ```
 localhost/acptest/?data=new_data
@@ -112,8 +108,7 @@ localhost/acptest/?data=new_data
 Note: Please put the **new_data.json** at the **data** folder.
 
 ###How to Add your Own Javascript files in the *Javascript JSON File Descriptor*
-If you want to add your own javascript file,    
-let's say **new_js.js**,      
+If you want to add your own javascript file, let's say **new_js.js**,      
 and you have put it inside the **extrajs folder**, you need to edit the **extrajs.json** inside the **extrajs folder** and add the javascript file as a *javascript object notation data*, using this format:
 ```javascript
 {
@@ -123,16 +118,14 @@ and you have put it inside the **extrajs folder**, you need to edit the **extraj
 ```
 Note: This is given that the javascript file **new_js.js** is inside **extrajs folder**.
 
-If you want to create your own **Javascript JSON File Descriptor**,   
-let's say **new_javascript_list.json**,    
+If you want to create your own **Javascript JSON File Descriptor**, let's say **new_javascript_list.json**,    
 and you want to put your javascript file in it, you need to edit **new_javascript_list.json** (which should also be inside the **extrajs folder**), you have to start the file this way:
 ```javascript
 {
    data: [ LIST OF JAVASCRIPT FILES ]
 }
 ```
-This means, if you have two javascript files that you want to be loaded,    
-let's say **new_js.js** and **new_js_2.js**, both inside the **extrajs folder**,  
+This means, if you have two javascript files that you want to be loaded, let's say **new_js.js** and **new_js_2.js**, both inside the **extrajs folder**,  
 then **new_javascript_list.json** would look like this:
 ```javascript
 {
@@ -151,8 +144,7 @@ then **new_javascript_list.json** would look like this:
 
 ###Loading A Different *Javascript JSON File Descriptor*
 If you want to access a different **Javascript JSON File Descriptor** with a different set of javascript files for access,   
-let's say **new_javascript_list.json** (from the example above),    
-you can type this in your url:
+let's say **new_javascript_list.json** (from the example above), you can type this in your url:
 ```
 localhost/acptest/?jslist=new_javascript_list
 ```
