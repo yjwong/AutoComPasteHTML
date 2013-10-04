@@ -156,7 +156,7 @@ To record your logs, put this function in your external extra javascript file th
 ```
 log(data)
 ```
-where data is any data you want to record.
+where data is any data you want to record, like the following:
 - a javascript data object (make sure you don't save the whole jquery element on this, as it will conflict with JSON stringify later on)
 - a string
 - an integer, float, number...
