@@ -40,7 +40,7 @@ You will get:
    - *module folder*: this is the index.min.js separated to its other core components.
 - *data folder*: here you put the data for your tests..
    - *data.json*: This is a *Data JSON File Descriptor* that lists all of articles that will be fed in the system. Each article file is described in this form:
-   ```javascript
+   ```
    {
       type: "text",
       link: "[RELATIVE URL OF THE ARTICLE FILE FROM INDEX.HTML]"
@@ -51,11 +51,11 @@ You will get:
 - *css folder*: for basic ui design.
 - *extrajs folder*: here is where you can put your additional javascript files for your logging user behavior
     - *extrajs.json*: same as data.json, This is a *Javascript JSON File Descriptor* that lists all of the extra external javascript files that will be loaded into the system. Each javascript file that will be loaded is described in a JSON format in this form:
-    ```javascript
- {
+    ```
+    {
      type: "js",
      link: "[RELATIVE URL OF THE JS FILE FROM INDEX.HTML]"
- }
+    }
     ```
     - *defaultlib.js*: An example javascript file that has the basic function libraries on mouse events and logging it on the built-in system recorder
     - *default.js*: An example javascript file that adds event detectors on elements in the system and uses the functions in defaultlib.js
@@ -63,7 +63,42 @@ You will get:
 #How to Use?
 You can modify the JSON files to be accessed...
 
-###
+###How to Add articles for testing in the Data JSON File Descriptor
+If you want to add articles,    
+let's say *new_article.txt*,
+and you have put it inside the *article folder* (which is inside the *data folder*), you will need to edit the *data.json* file, which is inside the *data folder* and add the article as a javascript object notation data using this format:
+```javascript
+{
+     type: "text",
+     link: "data/artcile/new_article.txt" 
+}
+```
+Note: This is given that the article file *new_article.txt* is inside the *article folder* (which is inside the *data folder*)
+
+If you want to create your own Data JSON File Descriptor,
+let's say *new_data.json*,
+and you want to put your article in it, you need to edit *new_data.json* (which should also be inside the *data folder*), you have to start the file this way:
+```javascript
+{
+   data: [ LIST OF ARTICLE ] 
+}
+```
+This means, if you have two articles that you want to be loaded,
+let's say *new_article.txt* and *new_article_2.txt*, both insde the *article folder* (which is insde the *data folder*), then *new_data.json* would look like this:
+```javascript
+{
+   data: [
+      {
+         type: "text",
+         link: "data/artcile/new_article.txt"
+      },
+      {
+         type: "text",
+         link: "data/artcile/new_article_2.txt"
+      }
+   ]
+}
+```
 
 ###Loading A Different Data JSON File Descriptor
 If you want to access a different data JSON file Loader,    
@@ -87,7 +122,7 @@ and you have put it inside the *extrajs folder*, you need to edit the *extrajs.j
 ```
 Note: This is given that the javascript file *new_js.js* is inside *extrajs folder*.
 
-If you want to create your own javascript list,   
+If you want to create your own Javascript JSON File Descriptor,   
 let's say *new_javascript_list.json*,    
 and you want to put your javascript file in it, you need to edit *new_javascript_list.json* (which should also be inside the *extrajs folder*), you have to start the file this way:
 ```javascript
@@ -150,4 +185,57 @@ generateResult.change_function(generateNewLog);
 Note: Make sure that *new_js.js* is added in your *Javascript JSON file descriptor* to be loaded by the system - See *What do you get?-extrajs folder-extrajs.json*
 
 #More Questions
+Here are some questions you might ask:
+
+###Why is the Data/Javascript JSON File Descriptors not working?
+You can try copying and pasting your JSON files into this to validate your syntax: http://jsonlint.com/    
+You might have missed a comma somewhere, so best to always check before using :)
+
+###Why are my logs named *"download"*, and not *"download.txt"* or *"download.json"* or even *"some_other_file_name.json"*?
+It is one of the limitations we had in using Javascript to generate files for download instead of sending it to a server to generate it.
+You can modify it and create a different way by creating a new function (see *How to change the generation of logs?*)...
+If you are using XAMPP/MAMP, you can send it to a PHP file, named *savefile.php* in your server by putting this code in your external javascript file:
+```javascript
+var generateNewLog = function() {
+   var data = JSON.stringify({"data":logdata}, null, " "); //This creates a JSON string of the logdata
+   var res = $.post('savefile.php', {"data": data, "file": "put_your_file_name_here.json"}); // Put your new file name in the file area
+}
+```
+While the php file *savefile.php* would look like this:
+```php
+if (!isset($_POST["data"])){
+	die('No data sent'); 
+}
+
+if (!isset($_POST["file"])){
+	die('No filename sent'); 
+}
+
+$somecontent = $_POST["data"];
+
+$File = $_POST["file"];
+
+header("Content-Disposition: attachment; filename=\"" . basename($File) . "\"");
+header("Content-Type: application/force-download");
+header("Content-Length: " . filesize($File));
+header("Connection: close");
+
+echo $somecontent;
+```
+This will force download your file into a filename called *put_your_file_name_here.json* (as what our example has done).
+
+###Can I modify the core program? (i.e. index.min.js)
+Yes you can. Actually, you can change the whole thing to suit your experiment. You can also send us bug trackers and request. Just remember that we have made this only for the assignment, 
+and has made it to mimic the bare essentials of original testing environment minus the logging procedures so that you can add your own.
+
+###How do I know the elements to be accessed (and logged) in the Interface?
+You can use Firefox's Firebug or Chrome Developer Tools
+
+###Has this been tested in IE?
+I am sorry, we don't use IE. So haven't tested this. We recommend Firefox or Chrome, they are better when it comes for developing stuff like these...
+
+###The code is messy...
+We know. We just made it in 2 days. We didn't use any much of usual Software Development techniques and rules in doing this. Sorry about that.
+
+###My questions are not here...
 As this is currently for class use, ask your professor by email and we would answer it the best we can
