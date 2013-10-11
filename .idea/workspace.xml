@@ -13,7 +13,7 @@
     <file path="/general.css" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380778196425" ignored="false" />
     <file path="/data.json" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380186031839" ignored="false" />
     <file path="/data1.txt" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380188528558" ignored="false" />
-    <file path="/index.min.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381457042430" ignored="false" />
+    <file path="/index.min.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381460293022" ignored="false" />
     <file path="/default.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381147512598" ignored="false" />
     <file path="/defaultlib.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381146294108" ignored="false" />
     <file path="/README.md" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380783592256" ignored="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="index.min.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="692" column="24" selection-start="19455" selection-end="19455" vertical-scroll-proportion="0.22170362">
+            <state line="524" column="60" selection-start="14573" selection-end="14573" vertical-scroll-proportion="0.5576923">
               <folding />
             </state>
           </provider>
@@ -556,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="692" column="24" selection-start="19455" selection-end="19455" vertical-scroll-proportion="0.22170362">
+        <state line="524" column="60" selection-start="14573" selection-end="14573" vertical-scroll-proportion="0.5576923">
           <folding />
         </state>
       </provider>
