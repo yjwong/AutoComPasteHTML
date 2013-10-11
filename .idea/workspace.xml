@@ -13,7 +13,7 @@
     <file path="/general.css" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380778196425" ignored="false" />
     <file path="/data.json" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380186031839" ignored="false" />
     <file path="/data1.txt" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380188528558" ignored="false" />
-    <file path="/index.min.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381151206765" ignored="false" />
+    <file path="/index.min.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381457042430" ignored="false" />
     <file path="/default.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381147512598" ignored="false" />
     <file path="/defaultlib.js" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1381146294108" ignored="false" />
     <file path="/README.md" changelist="fd11e0b9-0eed-4175-a7b2-1e82564bfc71" time="1380783592256" ignored="false" />
@@ -47,24 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page3.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="59" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="external_files.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/external_files.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="interface1.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface1.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,10 +56,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.min.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.min.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1503" column="65" selection-start="44852" selection-end="44852" vertical-scroll-proportion="0.0">
+            <state line="692" column="24" selection-start="19455" selection-end="19455" vertical-scroll-proportion="0.22170362">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_class.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base_class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="6" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/module/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="321" selection-end="344" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,18 +104,16 @@
       <file leaf-file-name="generateFile.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generateFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="2195" selection-end="2195" vertical-scroll-proportion="-30.115385">
-              <folding>
-                <element signature="e#6#163#0" expanded="true" />
-              </folding>
+            <state line="80" column="0" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.5610561">
+            <state line="30" column="0" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,6 +125,9 @@
             <state line="204" column="102" selection-start="9529" selection-end="9529" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -161,19 +162,18 @@
         <option value="$PROJECT_DIR$/page4.php" />
         <option value="$PROJECT_DIR$/page3.php" />
         <option value="$PROJECT_DIR$/setCookie.php" />
-        <option value="$PROJECT_DIR$/js/index.min.js" />
         <option value="$PROJECT_DIR$/generateFile.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/backup.txt" />
+        <option value="$PROJECT_DIR$/js/index.min.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1092" />
+    <option name="x" value="2" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,7 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,15 +327,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -374,14 +375,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1092" extended-state="0" />
+    <frame x="2" y="0" width="1918" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529349" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25808188" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -457,60 +458,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testenv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="870" selection-end="870" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
+        <state line="1" column="13" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extrajs/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="14" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extrajs/defaultlib.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="46" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="46" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="60" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="60" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/external_files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="59" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="59" column="59" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reset.php">
@@ -541,19 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1503" column="65" selection-start="44852" selection-end="44852" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generateFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2195" selection-end="2195" vertical-scroll-proportion="-30.115385">
-          <folding>
-            <element signature="e#6#163#0" expanded="true" />
-          </folding>
+        <state line="80" column="0" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,10 +529,34 @@
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.5610561">
+        <state line="30" column="0" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="6" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/module/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="321" selection-end="344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="692" column="24" selection-start="19455" selection-end="19455" vertical-scroll-proportion="0.22170362">
           <folding />
         </state>
       </provider>
