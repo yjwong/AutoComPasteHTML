@@ -65,5 +65,3 @@ Of course the independent variable 1 is the acp/xwindow itself. Please refer to 
 - **page5.php**: This is where it instructs you to download your data file. You can modify it if you want another php file to process your data.
 - **reset.php**: (CHANGE AT OWN RISK) this just resets the system for next experiment
 - **testenv.html**: (CHANGE AT OWN RISK) this is the testing environment for the ACP/XWindow
-- 
-- 
