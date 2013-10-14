@@ -28,6 +28,19 @@ For Mac: ```localhost:8888/acptest```
 
 Note: because MAMP usually puts it in a different port -> 8888, check MAMP settings on what port to access the MAMP server
 
+###How to Run ACP and test it your self...
+For this, access the system by typing:    
+For Windows and Linux: ```localhost/acptest/testenv.html```
+For Mac: ```localhost:8888/acptest/testenv.html```
+
+Click on the TextEditor Window inside the system. And then type the first few letters of any of the words that you see in the other windows inside the system as well. Commonly, you can try words like "Why" or "The"...
+It should show a dropdown list of possible sentences from the articles that you have put.
+
+If you pressed the down/up-button in the keyboard, it should show paste the sentence/phrase to the text document. 
+If you press enter, it will return to the text document. If you press left/right button right after pressing enter,
+you can delete/add the next few sentences of the article. If you press up/down button, you can delete/add the next few paragraphs of the article.
+Pressing enter or space would mean pasting the final text to the system.
+
 #What do you get?
 THe files that you will get are:
 - **css folder**: this would include all the styles needed for the **testenv.html**
@@ -65,3 +78,18 @@ Of course the independent variable 1 is the acp/xwindow itself. Please refer to 
 - **page5.php**: This is where it instructs you to download your data file. You can modify it if you want another php file to process your data.
 - **reset.php**: (CHANGE AT OWN RISK) this just resets the system for next experiment
 - **testenv.html**: (CHANGE AT OWN RISK) this is the testing environment for the ACP/XWindow
+ 
+#FAQ:
+### I find a lot of files in the repo and not sure which ones to change..
+The things that you can change are:
+- files inside **data folder**
+- files inside **extrajs folder**
+- files inside **task folder**
+- **external_files.php** - if you want to load a different file from your default files
+- **index.php, page1.php - page4.php** - you need to change the instructions
+- **page5.php** - if you want to load a different php file to process your data
+
+### do we have to code the algorithms for the two copy-paste techniques since I was not able to try them when I ran your code..
+No need to code the algorithm
+
+
