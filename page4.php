@@ -20,6 +20,10 @@ if (!isset($_COOKIE["interface"])){
     exit;
 }
 
+if (!isset($_COOKIE["acp"])) {
+
+}
+
 // checks if first interface was already tested (and subsequently, second interface)
 if (isset($_COOKIE["done1"])){
     header("Location: page5.php");

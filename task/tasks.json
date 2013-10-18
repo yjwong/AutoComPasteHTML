@@ -3,42 +3,309 @@
         "acp": [
             {
                 "title": "Copy-paste Experiment",
-                "var": ["Phrase", "--Independent Variable 3--"],
-                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
-                "Stimuli": "text from one of the open document"
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"A number\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "A number system"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"The natural\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "The natural difference"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"bipolar\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "bipolar junction transistor"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"bistable\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "bistable multivibrator"
 
             },
             {
                 "title": "Copy-paste Experiment",
-                "var": ["Sentence", "--Independent Variable 3--"],
-                "Instruction": "Please copy-paste using ACP and using this sentence from one of the opened document window",
-                "Stimuli": "This is a text from one of the open document."
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"Width\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "Width of the band of frequencies between the half power points."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"A method\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"An external\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "An external signal is required to change the output from one state to the other."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"(BJT)\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "(BJT), A three terminal device in which emitter to collector current is controlled by base current."
             },
             {
                 "title": "Copy-paste Experiment",
-                "var": ["Paragraph", "--Independent Variable 3--"],
-                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
-                "Stimuli": "This is a text  from one of the open document. ANd this is a paragraph."
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is barrier potential ?The natural difference of potential that exists across a forward biased pn junction."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is battery ?A DC voltage source containing two or more cells that convert chemical energy to electrical energy."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is bandwidth ?Width of the band of frequencies between the half power points."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is base biasing ?A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"acceptor\"</b> from <b>data_articles_data1_txt_window</b>",
+                "Stimuli": "acceptor atoms"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"An electric\"</b> from <b>data_articles_data2_txt_window</b>",
+                "Stimuli": "An electric current"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"armstrong\"</b> from <b>data_articles_Article_3_txt_window</b>",
+                "Stimuli": "armstrong oscillator"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"band\"</b> from <b>data_articles_Article_4_txt_window</b>",
+                "Stimuli": "band-pass filter"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"Name for\"</b> from <b>data_articles_data2_txt_window</b>",
+                "Stimuli": "Name for an AC generator."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"Trivalent atoms\"</b> from <b>data_articles_data1_txt_window</b>",
+                "Stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"An oscillator\"</b> from <b>data_articles_Article_3_txt_window</b>",
+                "Stimuli": "An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"A single\"</b> from <b>data_articles_Article_4_txt_window</b>",
+                "Stimuli": "A single winding transformer where the output is taken from taps on the winding."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_Article_3_txt_window</b>",
+                "Stimuli": "What is apparent power ?Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_data2_txt_window</b>",
+                "Stimuli": "What is alkaline cell ?A primary cell that delivers more current than a carbon-zinc cell. Also known as an alkaline manganese cell."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_data1_txt_window</b>",
+                "Stimuli": "What is absorption ?Loss or dissipation of energy as it travels through a medium,  Example: radio waves lose some of their energy as they travel through that atmosphere. What about this... Hello there"
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using ACP and using this phrase: <b>\"What\"</b> from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is barrier potential ? The natural difference of potential that exists across a forward biased pn junction."
             }
         ],
         "xwindow": [
             {
                 "title": "Copy-paste Experiment",
-                "var": ["Phrase", "--Independent Variable 3--"],
-                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
-                "Stimuli": "text from one of the open document"
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "A number system"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "The natural difference"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "bipolar junction transistor"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "bistable multivibrator"
+
             },
             {
                 "title": "Copy-paste Experiment",
-                "var": ["Sentence", "--Independent Variable 3--"],
-                "Instruction": "Please copy-paste using XWindow and using this sentence from one of the opened document window",
-                "Stimuli": "This is a text from one of the open document."
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "Width of the band of frequencies between the half power points."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "An external signal is required to change the output from one state to the other."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "(BJT), A three terminal device in which emitter to collector current is controlled by base current."
             },
             {
                 "title": "Copy-paste Experiment",
-                "var": ["Paragraph", "--Independent Variable 3--"],
-                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
-                "Stimuli": "This is a text  from one of the open document. ANd this is a paragraph."
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is barrier potential ?The natural difference of potential that exists across a forward biased pn junction."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is battery ?A DC voltage source containing two or more cells that convert chemical energy to electrical energy."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is bandwidth ?Width of the band of frequencies between the half power points."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Visible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is base biasing ?A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_data1_txt_window</b>",
+                "Stimuli": "acceptor atoms"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_data2_txt_window</b>",
+                "Stimuli": "An electric current"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_3_txt_window</b>",
+                "Stimuli": "armstrong oscillator"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_4_txt_window</b>",
+                "Stimuli": "band-pass filter"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_data2_txt_window</b>",
+                "Stimuli": "Name for an AC generator."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_data1_txt_window</b>",
+                "Stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_3_txt_window</b>",
+                "Stimuli": "An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_4_txt_window</b>",
+                "Stimuli": "A single winding transformer where the output is taken from taps on the winding."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_3_txt_window</b>",
+                "Stimuli": "What is apparent power ?Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_data2_txt_window</b>",
+                "Stimuli": "What is alkaline cell ?A primary cell that delivers more current than a carbon-zinc cell. Also known as an alkaline manganese cell."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_data1_txt_window</b>",
+                "Stimuli": "What is absorption ?Loss or dissipation of energy as it travels through a medium,  Example: radio waves lose some of their energy as they travel through that atmosphere. What about this... Hello there"
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "Invisible"],
+                "Instruction": "Please copy-paste using XWindow from <b>data_articles_Article_5_txt_window</b>",
+                "Stimuli": "What is barrier potential ? The natural difference of potential that exists across a forward biased pn junction."
             }
         ]
     }

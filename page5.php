@@ -26,7 +26,7 @@ if (!isset($_COOKIE["user"])){
     </p>
 
 
-    <a href="generateFile.php" target="_blank">Generate File</a>
+    <a href="generate2.php" target="_blank">Generate File</a>
 </div>
 
 

@@ -17,3 +17,44 @@ if (!empty($_POST)) {
     /* Make sure that code below does not get executed when we redirect. */
     exit;
 }
+
+var_dump($_POST);
+var_dump($_COOKIE);
+//if (strcmp("acp", $interface)==0) {
+//    $data = json_decode($value, true);
+//
+//    foreach ($data["data"] as $k => $v) {
+//        $text = "";
+//        $val = $v["data"];
+//        foreach ($val as $x=> $y) {
+//            if (is_array($y)) {
+//                foreach ($y as $w) {
+//                    $text = $text.$w."; ";
+//                }
+//            } else {
+//                $word = str_replace("\n", "", str_replace("\r", "", $y));
+//                $text = $text.$word."; ";
+//            }
+//        }
+//        $realdata = $realdata.$text."\n";
+//
+//    } elseif (strcmp("xwindow", $interface)==0){
+//        $data = json_decode($value, true);
+//        $text = "";
+//        foreach ($data["data"] as $k => $v) {
+//            $text = "";
+//            $val = $v["data"];
+//            foreach ($val as $x=> $y) {
+//                if (is_array($y)) {
+//                    foreach ($y as $w) {
+//                        $text = $text.$w."; ";
+//                    }
+//                } else {
+//                    $word = str_replace("\n", "", str_replace("\r", "", $y));
+//                    $text = $text.$word."; ";
+//                }
+//            }
+//            $realdata = $realdata.$text."\n";
+//        }
+//    }
+//}
