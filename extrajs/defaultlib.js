@@ -17,15 +17,15 @@ var pasteEvent = function(e) {
     // this gets the difference of global.taskstart date and time and thisevent's date and time
     var eventdiff = Math.abs(thisevent.getTime() - global.taskstart.getTime())
     // this checks if the user copied first from the opened-document
-    if (copyflag) {
-        copyflag = false;
-    // this checks if the user is in ACP environment
-    } else if (vD.acpflag) {
-    // put special code here if you have other things to put...
-
-    } else {
-        return;
-    }
+//    if (copyflag) {
+//        copyflag = false;
+//    // this checks if the user is in ACP environment
+//    } else if (vD.acpflag) {
+//    // put special code here if you have other things to put...
+//
+//    } else {
+//        return;
+//    }
 
     // sets values in data, the setup is just like in the word document material:
     // Participant, primary independent variable, secondary independent variable 1, secondary independent variable 2, trial number,
