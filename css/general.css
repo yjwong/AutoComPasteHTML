@@ -166,4 +166,6 @@ a#InstructionButton {
     to(#acdbd5));
 }
 
+.highlight { background-color: yellow; color: black; }
+
 

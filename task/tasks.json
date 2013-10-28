@@ -5,7 +5,7 @@
                 "title": "Copy-paste Experiment",
                 "var": ["Phrase", "--Independent Variable 3--"],
                 "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
-                "Stimuli": "text from one of the open document"
+                "Stimuli": "What is ampere"
 
             },
             {

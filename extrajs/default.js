@@ -23,6 +23,11 @@ $('#TextEditor_textArea').bind('paste', null, pasteEvent);
 // this detects custom paste event of ACP
 $('#TextEditor_textArea').bind('acp_paste', pasteEvent);
 
+// this detects custom event "next_task" when you click on the next task button
+$(document).bind('next_task', nextTask);
+
+$(document).bind('data_saved', dataSaved);
+
 
 /*
 // detects mouseenter on all windowContent

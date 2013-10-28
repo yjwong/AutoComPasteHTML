@@ -77,6 +77,17 @@ var copyEvent = function(e) {
 
 }
 
+var nextTask = function(e) {
+    console.log(e);
+    resetZ_order();
+    removeHighlightText();
+    highlightText(getCurrentStimuli());    
+}
+
+var dataSaved = function(e) {
+    console.log(e);
+}
+
 
 /*
 function mouseEnter(e) {
