@@ -89,8 +89,10 @@ var nextTask = function(e) {
     // highlights text in all windows that has the same phrasing in the stimuli
     highlightText(getCurrentStimuli());
 
-    // deletes all text in the texteditor
-    $("#TextEditor_textArea").val("");
+    // resets the data in textarea
+    resetTextArea();
+
+    //
 }
 
 var dataSaved = function(e) {
