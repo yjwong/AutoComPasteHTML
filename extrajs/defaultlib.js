@@ -79,9 +79,18 @@ var copyEvent = function(e) {
 
 var nextTask = function(e) {
     console.log(e);
+
+    // reset the z-order of the windows
     resetZ_order();
+
+    // remove highlight text
     removeHighlightText();
-    highlightText(getCurrentStimuli());    
+
+    // highlights text in all windows that has the same phrasing in the stimuli
+    highlightText(getCurrentStimuli());
+
+    // deletes all text in the texteditor
+    $("#TextEditor_textArea").val("");
 }
 
 var dataSaved = function(e) {
