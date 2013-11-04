@@ -17,6 +17,25 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="index.min.js" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/js/index.min.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="232" column="26" selection-start="5803" selection-end="5803" vertical-scroll-proportion="0.35222223" vertical-offset="3389" max-vertical-offset="29869">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="AutoComPasteHTML" />
@@ -26,7 +45,7 @@
       <file leaf-file-name="index.min.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1683" column="28" selection-start="49902" selection-end="49902" vertical-scroll-proportion="0.32968238" vertical-offset="28072" max-vertical-offset="29631">
+            <state line="1069" column="13" selection-start="30793" selection-end="30793" vertical-scroll-proportion="0.27710843" vertical-offset="17682" max-vertical-offset="29869">
               <folding />
             </state>
           </provider>
@@ -44,7 +63,7 @@
       <file leaf-file-name="setCookie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setCookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="2" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1309">
+            <state line="28" column="2" selection-start="689" selection-end="689" vertical-scroll-proportion="-3.0384614" vertical-offset="397" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -63,6 +82,24 @@
         <entry file="file://$PROJECT_DIR$/extrajs/defaultlib.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="92" column="20" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="2380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page4.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="54" selection-start="757" selection-end="757" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generateFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="0" selection-start="2013" selection-end="2174" vertical-scroll-proportion="-27.076923" vertical-offset="571" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -90,28 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page4.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="54" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generateFile.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generateFile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2013" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page3.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1241">
               <folding>
                 <marker date="1381151453041" expanded="true" signature="1122:1641" placeholder="..." />
                 <marker date="1381151453041" expanded="true" signature="1129:1182" placeholder="..." />
@@ -324,6 +343,12 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -407,45 +432,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page4.php">
+    <entry file="file://$PROJECT_DIR$/data/articles/Article_3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="54" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <marker date="1381151453041" expanded="true" signature="1122:1641" placeholder="..." />
-            <marker date="1381151453041" expanded="true" signature="1129:1182" placeholder="..." />
-            <marker date="1381151453041" expanded="true" signature="1189:1633" placeholder="..." />
-            <marker date="1381151453041" expanded="true" signature="1195:1623" placeholder="..." />
-            <marker date="1381151453041" expanded="true" signature="1203:1311" placeholder="..." />
-            <marker date="1381151453041" expanded="true" signature="1319:1355" placeholder="..." />
-            <marker date="1381151453041" expanded="true" signature="1548:1616" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2013" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1462">
+        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setCookie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="2" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1309">
+        <state line="28" column="2" selection-start="689" selection-end="689" vertical-scroll-proportion="-3.0384614" vertical-offset="397" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles/Article_3.txt">
+    <entry file="file://$PROJECT_DIR$/extrajs/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+        <state line="23" column="56" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extrajs/defaultlib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="20" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="2380">
           <folding />
         </state>
       </provider>
@@ -468,23 +478,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extrajs/default.js">
+    <entry file="file://$PROJECT_DIR$/page4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="56" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="32" column="54" selection-start="757" selection-end="757" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extrajs/defaultlib.js">
+    <entry file="file://$PROJECT_DIR$/generateFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="20" selection-start="2493" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="2380">
+        <state line="75" column="0" selection-start="2013" selection-end="2174" vertical-scroll-proportion="-27.076923" vertical-offset="571" max-vertical-offset="1462">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding>
+            <marker date="1381151453041" expanded="true" signature="1122:1641" placeholder="..." />
+            <marker date="1381151453041" expanded="true" signature="1129:1182" placeholder="..." />
+            <marker date="1381151453041" expanded="true" signature="1189:1633" placeholder="..." />
+            <marker date="1381151453041" expanded="true" signature="1195:1623" placeholder="..." />
+            <marker date="1381151453041" expanded="true" signature="1203:1311" placeholder="..." />
+            <marker date="1381151453041" expanded="true" signature="1319:1355" placeholder="..." />
+            <marker date="1381151453041" expanded="true" signature="1548:1616" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1683" column="28" selection-start="49902" selection-end="49902" vertical-scroll-proportion="0.32968238" vertical-offset="28072" max-vertical-offset="29631">
+        <state line="1069" column="13" selection-start="30793" selection-end="30793" vertical-scroll-proportion="0.27710843" vertical-offset="17682" max-vertical-offset="29869">
           <folding />
         </state>
       </provider>
