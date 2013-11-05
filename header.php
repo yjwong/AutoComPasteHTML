@@ -1,4 +1,6 @@
 <?php
+ob_start ();
+
 // Precompile all LESS files before serving them to the client.
 require ("./vendor/lessphp/lessc.inc.php");
 

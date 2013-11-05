@@ -16,6 +16,7 @@ if (!isset ($_SESSION["participant_id"])) {
 $experiments_json = file_get_contents ("data/experiments.json");
 $experiments = json_decode ($experiments_json);
 if (!property_exists ($experiments, $_SESSION["participant_id"])) {
+    unset ($_SESSION["participant_id"]);
     $_SESSION["notifications"][] = "Participant ID is not valid.";
     header ("Location: index.php");
     die ();
