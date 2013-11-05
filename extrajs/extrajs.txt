@@ -1,2 +1,0 @@
-extrajs/defaultlib.js
-extrajs/default.js

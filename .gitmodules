@@ -1,0 +1,9 @@
+[submodule "vendor/bootstrap"]
+	path = vendor/bootstrap
+	url = ssh://git@gitlab.eugenecys.com:7716/yjwong/cs4249_assignment2_bootstrap.git
+[submodule "vendor/lessphp"]
+	path = vendor/lessphp
+	url = https://github.com/leafo/lessphp.git
+[submodule "vendor/jquery"]
+	path = vendor/jquery
+	url = https://github.com/jquery/jquery.git

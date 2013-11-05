@@ -1,0 +1,326 @@
+{
+    "P1": {
+        "experiments": [
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." }
+        ]
+    },
+    "P2": {
+        "experiments": [
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." }
+        ]
+    },
+    "P3": {
+        "experiments": [
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" }
+        ]
+    },
+    "P4": {
+        "experiments": [
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" }
+        ]
+    },
+    "P5": {
+        "experiments": [
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." }
+        ]
+    },
+    "P6": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." }
+        ]
+    },
+    "P7": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." }
+        ]
+    },
+    "P8": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." }
+        ]
+    },
+    "P9": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" }
+        ]
+    },
+    "P10": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" }
+        ]
+    },
+    "P11": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." }
+        ]
+    },
+    "P12": {
+        "experiments": [
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "ctrlc_ctrlv", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 2, "stimuli": "acceptor"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 4, "stimuli": "magnitude"  },
+            { "technique": "ctrlc_ctrlv", "granularity": "word", "open_windows": 6, "stimuli": "definiteness"  },
+
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "ctrlc_ctrlv", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." },
+
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 2, "stimuli": "Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 4, "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times." },
+            { "technique": "autocompaste", "granularity": "sentence", "open_windows": 6, "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional." },
+
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 2, "stimuli": "acceptor" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 4, "stimuli": "magnitude" },
+            { "technique": "autocompaste", "granularity": "word", "open_windows": 6, "stimuli": "definiteness" },
+
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 2, "stimuli": "What is AC power supply ? Power supply that delivers an AC voltage." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 4, "stimuli": "What is anode ? The positive electrode or terminal of a device. The \"P\" material of a diode." },
+            { "technique": "autocompaste", "granularity": "paragraph", "open_windows": 6, "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." }
+        ]
+    }
+}
