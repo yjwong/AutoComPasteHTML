@@ -143,9 +143,6 @@ var WindowManager = (function () {
           .css ('height', (height - title_height) + 'px');
       }
 
-      // Set the new window to be focused.
-      wm.setFocus (name);
-      
       // Set window to focus on mouse down.
       jQuery (win_struct).mousedown (function () {
         wm.setFocus (name);
@@ -194,7 +191,13 @@ var WindowManager = (function () {
       console.log ("WindowManager: window \"" + name + "\" created");
 
       // Fire all registered events.
-      this.dispatchEvent ('windowcreated');
+      this.dispatchEvent ('windowcreated', {
+        window: privates.windows[name],
+        name: name
+      });
+      
+      // Set the new window to be focused.
+      wm.setFocus (name);
       return true;
     };
 
@@ -470,6 +473,9 @@ var WindowManager = (function () {
       privates.z_index_next++;
 
       console.log ("WindowManager.setFocus: Focused on window \"" + name + "\"");
+      this.dispatchEvent ('windowfocus', {
+        name: name
+      });
     };
 
     /**
@@ -508,7 +514,10 @@ var WindowManager = (function () {
       // Remove from our tracking table.
       delete privates.windows[name];
       console.log ("WindowManager.destroyWindow: Destroyed window \"" + name + "\"");
-      this.dispatchEvent ('windowdestroyed');
+      this.dispatchEvent ('windowdestroyed', {
+        name: name
+      });
+
       return true;
     };
 
@@ -566,14 +575,14 @@ var WindowManager = (function () {
       }
     };
 
-    this.dispatchEvent = function dispatchEvent (name) {
+    this.dispatchEvent = function dispatchEvent (name, event_data) {
       if (!privates.events.hasOwnProperty (name)) {
         return;
       }
 
       var evs = privates.events[name];
       for (var i = 0; i < evs.length; i++) {
-        evs[i].apply (null);
+        evs[i].apply (null, [event_data]);
       }
     };
 
@@ -657,6 +666,7 @@ var WindowManager = (function () {
     privates.dragging_active = false;
     privates.z_index_next = 1;
     privates.events = { };
+    privates.switcher_windows = { };
 
     // Locate the div to display our windows in.
     privates.display_element = document.getElementById (display);
@@ -673,14 +683,6 @@ var WindowManager = (function () {
     jQuery (privates.display_element).css ({
       'position': 'relative',
       'overflow': 'hidden'
-    });
-
-    // TODO: Window switching capability through shortcuts.
-    // Users can cycle through windows using Alt+Q (closest to Alt+Tab).
-    jQuery (privates.display_element).keydown (function (keydown_event) {
-      if (keydown_event.altKey && keydown_event.keyCode == 81) {
-        console.log ('Should switch window!');
-      }
     });
 
     // Begin the 60 fps render loop.

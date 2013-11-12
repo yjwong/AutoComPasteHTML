@@ -35,6 +35,54 @@ jQuery (document).ready (function () {
     var wm = new WindowManager ('autocompaste-display');
     var engine = new AutoComPaste.Engine ();
     var iface = new AutoComPaste.Interface (wm, engine, 'data/texts.json');
+
+    // Window switching capability through shortcuts.
+    // Users can cycle through windows using Alt+Q (closest to Alt+Tab).
+    var switcher_list = [ ];
+    var switcher_list_item = -1;
+    var switcher_list_pause_update = false;
+
+    wm.addEventListener ('windowcreated', function (created_event) {
+      switcher_list.push (created_event.name);
+    });
+
+    wm.addEventListener ('windowfocus', function (focus_event) {
+      if (switcher_list_pause_update) {
+        return;
+      }
+
+      // Search list for focused window.
+      switcher_list = switcher_list.filter (function (value, index, array) {
+        return focus_event.name != value;
+      });
+
+      switcher_list.push (focus_event.name);
+    });
+
+    jQuery (window).keydown (function (keydown_event) {
+      if (keydown_event.altKey && keydown_event.keyCode == 81) {
+        switcher_list_pause_update = true;
+
+        switcher_list_item--;
+        if (switcher_list_item < -1) {
+          switcher_list_item = switcher_list.length - 2;
+        }
+        
+        if (switcher_list_item == -1) {
+          switcher_list_item = switcher_list.length - 1;
+        }
+
+        wm.setFocus (switcher_list[switcher_list_item]);
+      }
+    });
+    
+    jQuery (window).keyup (function (keyup_event) {
+      if (keyup_event.keyCode == 18) {
+        switcher_list_pause_update = false;
+        wm.setFocus (switcher_list[switcher_list_item]);
+        switcher_list_item = -1;
+      }
+    });
   }
 
   if (/\/experiment.php/.test (path)) {
@@ -59,6 +107,54 @@ jQuery (document).ready (function () {
         jQuery ('#autocompaste-display .autocompaste-textarea').val ()
       );
       jQuery ('#experiment-time').val (end);
+    });
+
+    // Window switching capability through shortcuts.
+    // Users can cycle through windows using Alt+Q (closest to Alt+Tab).
+    var switcher_list = [ ];
+    var switcher_list_item = -1;
+    var switcher_list_pause_update = false;
+
+    wm.addEventListener ('windowcreated', function (created_event) {
+      switcher_list.push (created_event.name);
+    });
+
+    wm.addEventListener ('windowfocus', function (focus_event) {
+      if (switcher_list_pause_update) {
+        return;
+      }
+
+      // Search list for focused window.
+      switcher_list = switcher_list.filter (function (value, index, array) {
+        return focus_event.name != value;
+      });
+
+      switcher_list.push (focus_event.name);
+    });
+
+    jQuery (window).keydown (function (keydown_event) {
+      if (keydown_event.altKey && keydown_event.keyCode == 81) {
+        switcher_list_pause_update = true;
+
+        switcher_list_item--;
+        if (switcher_list_item < -1) {
+          switcher_list_item = switcher_list.length - 2;
+        }
+        
+        if (switcher_list_item == -1) {
+          switcher_list_item = switcher_list.length - 1;
+        }
+
+        wm.setFocus (switcher_list[switcher_list_item]);
+      }
+    });
+    
+    jQuery (window).keyup (function (keyup_event) {
+      if (keyup_event.keyCode == 18) {
+        switcher_list_pause_update = false;
+        wm.setFocus (switcher_list[switcher_list_item]);
+        switcher_list_item = -1;
+      }
     });
   }
 
