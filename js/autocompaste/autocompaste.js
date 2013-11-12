@@ -55,7 +55,9 @@ jQuery (document).ready (function () {
     // Measure the time and submit input strings.
     jQuery ('#experiment-form').submit (function (submit_event) {
       var end = new Date ().getTime () - start;
-      jQuery ('#experiment-raw').val (jQuery ('textarea').val ());
+      jQuery ('#experiment-raw').val (
+        jQuery ('#autocompaste-display .autocompaste-textarea').val ()
+      );
       jQuery ('#experiment-time').val (end);
     });
   }

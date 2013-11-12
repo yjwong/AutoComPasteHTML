@@ -121,16 +121,18 @@ AutoComPaste.Interface = (function () {
         }
 
         // Create a text editor window.
-        privates.wm.createWindow ("text_editor");
-        privates.wm.setWindowTitle ("text_editor", "Text Editor");
-        privates.wm.setWindowContent ('text_editor',
-          jQuery (document.createElement ('textarea'))
+        var acp_textarea = jQuery (document.createElement ('textarea'))
+            .addClass ('autocompaste-textarea')
             .attr ({
               'rows': 10,
               'cols': 40
             })
-            .autocompaste (privates.engine)
-        );
+            .autocompaste (privates.engine);
+
+        privates.wm.createWindow ("text_editor");
+        privates.wm.setWindowTitle ("text_editor", "Text Editor");
+        privates.wm.setWindowContent ('text_editor', acp_textarea);
+        acp_textarea.focus ();
       }
     };
 
