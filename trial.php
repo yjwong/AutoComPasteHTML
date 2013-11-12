@@ -30,6 +30,11 @@ What is bandwidth ? Approximately
 atoms that accept free electrons
 from pentavalent atoms.</code></pre>
 
+    <div class="alert alert-info">
+        <strong>Tip: </strong>
+        You can use Alt+Q to toggle between open windows.
+    </div>
+
     <span class="pull-right">
         <a href="experiment.php?sid=<?php echo $session_id; ?>" class="btn btn-primary">
             Next &rarr;
