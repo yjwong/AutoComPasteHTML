@@ -25,6 +25,31 @@ if (isset ($_SESSION["saved_form"])) {
     $saved_form = $_SESSION["saved_form"];
     unset ($_SESSION["saved_form"]);
 }
+
+// Define convenience functions.
+function get_experiments () {
+    // Check if the participant is registered.
+    $experiments_json = file_get_contents ("data/experiments.json");
+    $experiments = json_decode ($experiments_json);
+
+    return $experiments;
+}
+
+function participant_id_check () {
+    // Check if participant ID is defined.
+    if (!isset ($_SESSION["participant_id"])) {
+        $_SESSION["notifications"][] = "No participant ID specified.";
+        header ("Location: index.php");
+        die ();
+    }
+
+    $experiments = get_experiments ();
+    if (!property_exists ($experiments, $_SESSION["participant_id"])) {
+        $_SESSION["notifications"][] = "Participant ID is not valid.";
+        header ("Location: index.php");
+        die ();
+    }
+}
 ?>
 <!DOCTYPE html>
 <html>

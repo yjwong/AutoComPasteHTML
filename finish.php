@@ -1,5 +1,6 @@
 <?php
 include ("./header.php");
+participant_id_check ();
 
 // Do form validation.
 if (!isset ($_POST["accurate_intention"]) || empty ($_POST["accurate_intention"])) {
@@ -52,6 +53,10 @@ file_put_contents ("./data/results/" . $_SESSION["participant_id"] . ".txt",
     <p>
         You can now leave the workstation. Please approach the
         investigator if you have any questions.
+    </p>
+
+    <p>
+        <a class="btn btn-primary" href="index.php">Return to Experiment Home &rarr;</a>
     </p>
 
 </div>

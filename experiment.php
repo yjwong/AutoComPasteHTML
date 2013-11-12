@@ -1,17 +1,9 @@
 <?php
 include ("./header.php");
-$participant_id = $_SESSION["participant_id"];
+participant_id_check ();
 
-// Check out the participant ID.
-$experiments_json = file_get_contents ("data/experiments.json");
-$experiments = json_decode ($experiments_json);
-if (!property_exists ($experiments, $participant_id)) {
-    $_SESSION["notifications"][] = "Participant ID is not valid.";
-    header ("Location: index.php");
-    die ();
-}
-
-$participant = $experiments->$participant_id;
+$experiments = get_experiments ();
+$participant = $experiments->$_SESSION["participant_id"];
 $experiments = $participant->experiments;
 if (!isset ($_SESSION["experiment_step"])) {
     $_SESSION["experiment_step"] = 0;
@@ -22,25 +14,21 @@ if (!isset ($_SESSION["experiment_step"])) {
         isset ($_POST["experiment_time"]) && !empty ($_POST["experiment_time"])) {
         // Experiment data is good at this point.
         $_SESSION["experiment_results"][$_SESSION["experiment_step"]] = $_POST;
-
-        if (($_SESSION["experiment_step"] + 1) % 9 == 0 &&
-            ($_SESSION["experiment_step"] + 1) < count ($experiments)) {
-            // Is it time for a rest?
-            $_SESSION["experiment_step"]++;
-            $_SESSION["experiment_resume_from_rest"] = true;
-            header ("Location: rest.php");
-            die ();
-
-        } else {
-            if (!isset ($_SESSION["experiment_resume_from_rest"]) ||
-                !$_SESSION["experiment_resume_from_rest"]) {
-                $_SESSION["experiment_step"]++;
-            }
-
-            $_SESSION["experiment_resume_from_rest"] = false;
-        }
-           
+        $_SESSION["experiment_step"]++;
     }
+
+    if (($_SESSION["experiment_step"]) % 9 == 0 &&
+        ($_SESSION["experiment_step"]) < count ($experiments) &&
+        isset ($_SESSION["experiment_resume_from_rest"]) && !$_SESSION["experiment_resume_from_rest"]) {
+        // Is it time for a rest?
+        $_SESSION["experiment_resume_from_rest"] = true;
+        header ("Location: rest.php");
+        die ();
+
+    } else {
+        $_SESSION["experiment_resume_from_rest"] = false;
+    }
+       
 }
 
 // At this stage the experiment is over.

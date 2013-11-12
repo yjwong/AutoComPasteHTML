@@ -1,5 +1,6 @@
 <?php
 include ("./header.php");
+participant_id_check ();
 ?>
 
 <div class="container">

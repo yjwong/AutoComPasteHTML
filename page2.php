@@ -1,5 +1,6 @@
 <?php
 include ("./header.php");
+participant_id_check ();
 
 // Do form validation.
 if (!isset ($_POST["gender"]) || empty ($_POST["gender"])) {
