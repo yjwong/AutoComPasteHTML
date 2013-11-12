@@ -37,7 +37,12 @@ if (isset ($_SESSION["notifications"]) &&
     $_SESSION["saved_form"] = $_POST;
     header ("Location: page3.php");
     die ();
+} else {
+    $_SESSION["page3_form"] = $_POST;
 }
+
+file_put_contents ("./data/results/" . $_SESSION["participant_id"] . ".txt",
+    json_encode ($_SESSION, JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT));
 ?>
 
 <div class="container">

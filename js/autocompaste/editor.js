@@ -671,7 +671,8 @@ AutoComPaste.Editor = (function () {
 
         // Going down!
         // Down, right and tab.
-        if (/^(40|37|9)$/.test (keydown_event.keyCode)) {
+        if (/^(40|37)$/.test (keydown_event.keyCode) ||
+            (keydown_event.keyCode == 9 && !keydown_event.shiftKey)) {
           editor._focusOnCompletionListItem (++privates.clist_focused_item);
 
           var clist_ul = jQuery (privates.clist).find ('ul')[0];
@@ -681,7 +682,8 @@ AutoComPaste.Editor = (function () {
         }
 
         // Going up (or left)!
-        if (keydown_event.keyCode == 38 || keydown_event.keyCode == 39) {
+        if (/^(38|39)$/.test (keydown_event.keyCode) ||
+            (keydown_event.keyCode == 9 && keydown_event.shiftKey)) {
           editor._focusOnCompletionListItem (--privates.clist_focused_item);
           
           var clist_ul = jQuery (privates.clist).find ('ul')[0];

@@ -16,21 +16,31 @@ $experiments = $participant->experiments;
 if (!isset ($_SESSION["experiment_step"])) {
     $_SESSION["experiment_step"] = 0;
 
-} else if (($_SESSION["experiment_step"] + 1) % 3 == 0 &&
-        ($_SESSION["experiment_step"] + 1) < count ($experiments)) {
-    // Is it time for a rest?
-    $_SESSION["experiment_step"]++;
-    $_SESSION["experiment_resume_from_rest"] = true;
-    header ("Location: rest.php");
-    die ();
-
 } else {
-    if (!isset ($_SESSION["experiment_resume_from_rest"]) ||
-        !$_SESSION["experiment_resume_from_rest"]) {
-        $_SESSION["experiment_step"]++;
-    }
+    // Check if experiment data is valid.
+    if (isset ($_POST["experiment_raw"]) && 
+        isset ($_POST["experiment_time"]) && !empty ($_POST["experiment_time"])) {
+        // Experiment data is good at this point.
+        $_SESSION["experiment_results"][$_SESSION["experiment_step"]] = $_POST;
 
-    $_SESSION["experiment_resume_from_rest"] = false;
+        if (($_SESSION["experiment_step"] + 1) % 3 == 0 &&
+            ($_SESSION["experiment_step"] + 1) < count ($experiments)) {
+            // Is it time for a rest?
+            $_SESSION["experiment_step"]++;
+            $_SESSION["experiment_resume_from_rest"] = true;
+            header ("Location: rest.php");
+            die ();
+
+        } else {
+            if (!isset ($_SESSION["experiment_resume_from_rest"]) ||
+                !$_SESSION["experiment_resume_from_rest"]) {
+                $_SESSION["experiment_step"]++;
+            }
+
+            $_SESSION["experiment_resume_from_rest"] = false;
+        }
+           
+    }
 }
 
 // At this stage the experiment is over.

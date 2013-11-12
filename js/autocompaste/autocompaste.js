@@ -50,12 +50,20 @@ jQuery (document).ready (function () {
     var wm = new WindowManager ('autocompaste-display');
     var engine = new AutoComPaste.Engine ();
     var iface = new AutoComPaste.Interface (wm, engine, iface_json);
+    var start = new Date ().getTime ();
+
+    // Measure the time and submit input strings.
+    jQuery ('#experiment-form').submit (function (submit_event) {
+      var end = new Date ().getTime () - start;
+      jQuery ('#experiment-raw').val (jQuery ('textarea').val ());
+      jQuery ('#experiment-time').val (end);
+    });
   }
 
   if (/\/rest.php/.test (path)) {
     setTimeout (function () {
       jQuery ('#rest-button').removeAttr ('disabled');
-    }, 60000);
+    }, 15000);
   }
   
 });

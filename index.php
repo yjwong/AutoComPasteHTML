@@ -1,5 +1,6 @@
 <?php
 include ("./header.php");
+session_unset ();
 ?>
     <div class="jumbotron">
         <div class="container">
