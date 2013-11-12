@@ -110,9 +110,9 @@ if (isset ($_SESSION["notifications"]) &&
             </p>
 
             <p>
-                Subsequently, there will be 18 short trials, run in 6 groups
-                (for a total of 3 trials each). Each group will be punctuated
-                by a 15 second rest time.
+                Subsequently, there will be 18 short trials, run in 2 groups
+                (for a total of 9 trials each). Each group will be punctuated
+                by a 1 minute rest time.
             </p>
 
             <a class="btn btn-primary" href="trial.php?sid=<?php echo $session_id; ?>">

@@ -23,7 +23,7 @@ if (!isset ($_SESSION["experiment_step"])) {
         // Experiment data is good at this point.
         $_SESSION["experiment_results"][$_SESSION["experiment_step"]] = $_POST;
 
-        if (($_SESSION["experiment_step"] + 1) % 3 == 0 &&
+        if (($_SESSION["experiment_step"] + 1) % 9 == 0 &&
             ($_SESSION["experiment_step"] + 1) < count ($experiments)) {
             // Is it time for a rest?
             $_SESSION["experiment_step"]++;

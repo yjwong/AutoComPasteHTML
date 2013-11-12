@@ -63,7 +63,7 @@ jQuery (document).ready (function () {
   if (/\/rest.php/.test (path)) {
     setTimeout (function () {
       jQuery ('#rest-button').removeAttr ('disabled');
-    }, 15000);
+    }, 60000);
   }
   
 });
