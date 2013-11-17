@@ -91,8 +91,11 @@ AutoComPaste.Interface = (function () {
         return;
       }
 
+      var iface = this;
       jQuery.ajax (text_source.url, {
-        complete: this._fetchTextComplete,
+        complete: function (jqxhr, text_status) {
+          return iface._fetchTextComplete (jqxhr, text_status, iface);
+        },
         dataType: 'text',
         error: this._fetchTextError,
         success: function (data, text_status, jqxhr) {
@@ -101,7 +104,8 @@ AutoComPaste.Interface = (function () {
       });
     };
 
-    this._fetchTextComplete = function _fetchTextComplete (jqxhr, text_status) {
+    this._fetchTextComplete = function _fetchTextComplete (jqxhr, text_status,
+        iface) {
       privates.texts_returned++;
       if (privates.texts_returned == privates.texts_available) {
         // At this point, we have all the texts already.
@@ -133,6 +137,9 @@ AutoComPaste.Interface = (function () {
         privates.wm.setWindowTitle ("text_editor", "Text Editor");
         privates.wm.setWindowContent ('text_editor', acp_textarea);
         acp_textarea.focus ();
+
+        // Dispatch an event.
+        iface.dispatchEvent ('loaded');
       }
     };
 
@@ -168,6 +175,36 @@ AutoComPaste.Interface = (function () {
           Math.random () * (privates.wm.getDisplayWidth () - safety_bounds) + (safety_bounds / 2),
           Math.random () * (privates.wm.getDisplayHeight () - safety_bounds) + (safety_bounds / 2)
       );
+    };
+
+    this.addEventListener = function addEventListener (name, handler) {
+      if (privates.events.hasOwnProperty (name)) {
+        privates.events[name].push (handler);
+      } else {
+        privates.events[name] = [handler];
+      }
+    };
+
+    this.removeEventListener = function removeEventListener (name, handler) {
+      if (!privates.events.hasOwnProperty (name)) {
+        return;
+      }
+
+      var index = privates.events[name].indexOf (handler);
+      if (index != -1) {
+        privates.events[name].splice (index, 1);
+      }
+    };
+
+    this.dispatchEvent = function dispatchEvent (name, event_data) {
+      if (!privates.events.hasOwnProperty (name)) {
+        return;
+      }
+
+      var evs = privates.events[name];
+      for (var i = 0; i < evs.length; i++) {
+        evs[i].apply (null, [event_data]);
+      }
     };
    
     /** Constructor */
@@ -210,6 +247,7 @@ AutoComPaste.Interface = (function () {
     privates.texts_json = texts_json;
     privates.texts_available = 0;
     privates.texts_returned = 0;
+    privates.events = { };
     privates.engine = engine;
     privates.wm = wm;
     

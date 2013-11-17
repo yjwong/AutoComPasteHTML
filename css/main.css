@@ -38,6 +38,13 @@ body {
   border-radius: 0 0 0 6px;
 }
 
+#instructions pre code {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 /**
  * Main ACP styles
  */
@@ -72,6 +79,10 @@ body {
 #autocompaste-display > .wm-window .modal-body {
   padding: 5px;
   overflow-y: auto;
+}
+
+#autocompaste-display > .wm-window .modal-body .highlighted {
+  background-color: yellow;
 }
 
 #autocompaste-display.dragging-active > .wm-window .modal-header,

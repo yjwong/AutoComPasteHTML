@@ -58,6 +58,7 @@ if ($experiment->technique == "ctrlc_ctrlv") {
 var acp_open_windows = <?php echo $experiment->open_windows; ?>;
 var acp_round = <?php echo ($_SESSION["experiment_step"] + 1); ?>;
 var acp_granularity = "<?php echo $experiment->granularity; ?>";
+var acp_stimuli = "<?php echo addcslashes ($experiment->stimuli, "\n"); ?>";
 </script>
 
 <div id="autocompaste" class="col-sm-9">

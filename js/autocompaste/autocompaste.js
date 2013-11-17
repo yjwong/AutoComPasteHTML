@@ -100,6 +100,29 @@ jQuery (document).ready (function () {
     var iface = new AutoComPaste.Interface (wm, engine, iface_json);
     var start = new Date ().getTime ();
 
+    // Highlight the relevant text.
+    iface.addEventListener ('loaded', function () {
+      var lines_to_highlight = acp_stimuli.split ("\n\n");
+      
+      var windows = wm.getWindowList ();
+      for (var i = 0; i < windows.length; i++) {
+        if (windows[i] == 'text_editor') {
+          continue;
+        }
+
+        var win = wm.getWindowContent (windows[i]);
+        var content = jQuery (win).find ('pre').html ();
+        lines_to_highlight.map (function (value, index, array) {
+          content = content.replace (value,
+            "<span class=\"highlighted\">" + value + "</span>");
+        });
+
+        jQuery (win).find ('pre')
+          .empty ()
+          .append (content);
+      }
+    });
+
     // Measure the time and submit input strings.
     jQuery ('#experiment-form').submit (function (submit_event) {
       var end = new Date ().getTime () - start;

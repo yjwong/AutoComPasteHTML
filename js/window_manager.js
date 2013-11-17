@@ -431,6 +431,48 @@ var WindowManager = (function () {
     };
 
     /**
+     * Gets the content of a window specified by name.
+     *
+     * @param {String} name   The name of the window
+     * @return {Object} The window content
+     */
+    this.getWindowContent = function getWindowContent (name) {
+      if (name == undefined) {
+        console.error ("WindowManager.getWindowContent: name must be given");
+        return;
+      }
+
+      if (typeof name != 'string' && !(name instanceof String)) {
+        console.error ("WindowManager.getWindowContent: name must be a string");
+        return;
+      }
+
+      if (!privates.windows[name]) {
+        console.error ("WindowManager.getWindowContent: Window does not exist");
+        return;
+      }
+
+      return jQuery (privates.windows[name].struct)
+        .find ('.modal-body')[0];
+    };
+
+    /**
+     * Retrieves the list of windows.
+     *
+     * @return {Array} An array containing the names of windows.
+     */
+    this.getWindowList = function getWindowList () {
+      var windows = [];
+      for (var window_name in privates.windows) {
+        if (privates.windows.hasOwnProperty (window_name)) {
+          windows.push (window_name);
+        }
+      }
+
+      return windows;
+    };
+
+    /**
      * Sets the specified window to focus.
      *
      * All parameters are required. If the window does not exist, or if any of

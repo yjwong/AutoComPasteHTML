@@ -10,6 +10,6 @@ What is average value ? A value of voltage or current where the area of the wave
 
 What is avionics ? Aviation electronics.
 
-What is balanced bridge ? Condition that occurs when a bridge circuit is adjusted to producea zero output.
+What is balanced bridge ? Condition that occurs when a bridge circuit is adjusted to produce a zero output.
 
 What is band-pass filter ? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated.
