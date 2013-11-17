@@ -64,7 +64,6 @@ function participant_id_check () {
 
     <!-- JavaScript -->
     <script src="vendor/jquery/dist/jquery.js"></script>
-    <script src="vendor/jquery-ui/dist/jquery-ui.js"></script>
     <script src="js/main.js"></script>
 
     <script src="js/window_manager.js"></script>
