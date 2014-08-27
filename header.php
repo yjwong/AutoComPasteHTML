@@ -2,7 +2,7 @@
 ob_start ();
 
 // Precompile all LESS files before serving them to the client.
-require ("./vendor/lessphp/lessc.inc.php");
+require ("./vendor/less.php/lessc.inc.php");
 
 $less = new lessc;
 $less->setFormatter ("classic");

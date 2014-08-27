@@ -1,9 +1,9 @@
 [submodule "vendor/bootstrap"]
 	path = vendor/bootstrap
 	url = https://github.com/twbs/bootstrap.git
-[submodule "vendor/lessphp"]
-	path = vendor/lessphp
-	url = https://github.com/leafo/lessphp.git
 [submodule "vendor/jquery"]
 	path = vendor/jquery
 	url = https://github.com/jquery/jquery.git
+[submodule "vendor/less.php"]
+	path = vendor/less.php
+	url = https://github.com/oyejorge/less.php.git
